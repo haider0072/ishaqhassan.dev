@@ -887,6 +887,70 @@
   </div>
 </div>
 
+<!-- DESKTOP ICONS (right side: folders + apps, macOS style) -->
+<div id="desktop-icons">
+  <div class="desk-icon" onclick="window.open('assets/resume.pdf','_blank')" role="button" aria-label="Open Resume" tabindex="0">
+    <div class="desk-icon-art desk-icon-folder">
+      <svg width="44" height="36" viewBox="0 0 64 52" fill="none">
+        <path d="M2 10c0-3.3 2.7-6 6-6h14l6 6h28c3.3 0 6 2.7 6 6v30c0 3.3-2.7 6-6 6H8c-3.3 0-6-2.7-6-6V10z" fill="url(#folderGrad)" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+        <defs>
+          <linearGradient id="folderGrad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#7CC8FF"/>
+            <stop offset="1" stop-color="#338BD8"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="desk-icon-label">Resume</div>
+  </div>
+  <div class="desk-icon" onclick="navigate('flutter-course')" role="button" aria-label="Open Flutter Course" tabindex="0">
+    <div class="desk-icon-art desk-icon-app">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <rect x="2" y="2" width="36" height="36" rx="9" fill="url(#fcGrad)"/>
+        <defs>
+          <linearGradient id="fcGrad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#13B9FD"/>
+            <stop offset="1" stop-color="#0175C2"/>
+          </linearGradient>
+        </defs>
+        <path d="M14 14l8-7 8 7v3l-8 7-8-7v-3z" fill="#fff" opacity="0.95"/>
+        <path d="M16 22v6l6 4 6-4v-6" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="desk-icon-label">Flutter Course</div>
+  </div>
+  <div class="desk-icon" onclick="navigate('snake')" role="button" aria-label="Open Snake" tabindex="0">
+    <div class="desk-icon-art desk-icon-app desk-icon-snake">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <rect x="2" y="2" width="36" height="36" rx="9" fill="#0a0a0f"/>
+        <circle cx="12" cy="20" r="2.5" fill="#39FF14"/>
+        <circle cx="18" cy="20" r="2.5" fill="#39FF14"/>
+        <circle cx="24" cy="20" r="2.5" fill="#39FF14"/>
+        <circle cx="30" cy="20" r="2.8" fill="#39FF14"/>
+        <circle cx="29.5" cy="19" r="0.8" fill="#0a0a0f"/>
+      </svg>
+    </div>
+    <div class="desk-icon-label">Snake</div>
+  </div>
+  <div class="desk-icon" onclick="navigate('speaking')" role="button" aria-label="Open Speaking" tabindex="0">
+    <div class="desk-icon-art desk-icon-app desk-icon-speaking">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <rect x="2" y="2" width="36" height="36" rx="9" fill="url(#speakGrad)"/>
+        <defs>
+          <linearGradient id="speakGrad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#FF6B6B"/>
+            <stop offset="1" stop-color="#C44569"/>
+          </linearGradient>
+        </defs>
+        <path d="M20 10 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -8 0 v-6 a4 4 0 0 1 4 -4 z" fill="#fff"/>
+        <path d="M14 22 a6 6 0 0 0 12 0" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        <line x1="20" y1="28" x2="20" y2="32" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="desk-icon-label">Speaking</div>
+  </div>
+</div>
+
 <!-- DOCK -->
 <div id="dock-container">
   <div id="dock">

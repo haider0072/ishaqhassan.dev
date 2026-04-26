@@ -8103,3 +8103,61 @@ a.li-tl-company:hover { color: #7dd3fc; }
   .max-disclaimer { display: none; } /* save real estate on phones */
 }
 
+
+/* =========================================================
+   DESKTOP ICONS (macOS-style folders + apps on right side)
+   ========================================================= */
+#desktop-icons {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 2;
+  pointer-events: auto;
+}
+.desk-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 76px;
+  padding: 6px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.desk-icon:hover {
+  background: rgba(255,255,255,0.06);
+  transform: translateY(-1px);
+}
+.desk-icon:focus-visible {
+  outline: 2px solid rgba(125,211,252,0.7);
+  outline-offset: 2px;
+}
+.desk-icon-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.45));
+  transition: transform 0.18s ease;
+}
+.desk-icon:hover .desk-icon-art { transform: scale(1.06); }
+.desk-icon-app svg { border-radius: 9px; box-shadow: 0 4px 14px rgba(0,0,0,0.4); }
+.desk-icon-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+  text-align: center;
+  line-height: 1.2;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+/* Mobile: hide desktop icons (no desktop metaphor on phones) */
+@media (max-width: 768px) {
+  #desktop-icons { display: none !important; }
+}
