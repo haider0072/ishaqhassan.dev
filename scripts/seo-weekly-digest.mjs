@@ -12,10 +12,11 @@
  *
  * Required env:
  *   RESEND_API_KEY   Resend API key (existing)
- *   GSC_SA_KEY       (optional) Google service account JSON, gives ranking data
+ *   GSC_OAUTH        (optional) Google OAuth user credentials JSON (authorized_user with refresh_token)
+ *   GSC_QUOTA_PROJECT (optional) GCP project for quota; defaults to ishaqhassan-dev
  *   DIGEST_TO        (optional) override recipient
  *
- * Without GSC_SA_KEY, falls back to health-only mode and includes setup CTA.
+ * Without GSC_OAUTH, falls back to health-only mode and includes setup CTA.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -27,7 +28,8 @@ const FROM = 'Ishaq SEO <hello@ishaqhassan.dev>';
 const SITE = 'sc-domain:ishaqhassan.dev'; // GSC property (domain property). Use https://ishaqhassan.dev/ if URL property.
 const SITE_URL = 'https://ishaqhassan.dev';
 const RESEND_KEY = process.env.RESEND_API_KEY;
-const GSC_SA_KEY = process.env.GSC_SA_KEY;
+const GSC_OAUTH = process.env.GSC_OAUTH;
+const GSC_QUOTA_PROJECT = process.env.GSC_QUOTA_PROJECT || 'ishaqhassan-dev';
 
 if (!RESEND_KEY) { console.error('RESEND_API_KEY missing'); process.exit(1); }
 
@@ -92,40 +94,35 @@ function deltaArrow(curr, prev, lowerIsBetter = false) {
   return { html: `<span style="color:${color};font-weight:600">${arrow} ${display}</span>`, val: diff };
 }
 
-// ─── Google Search Console API (service account JWT) ──────────────────────
+// ─── Google Search Console API (OAuth user refresh-token) ─────────────────
 
-async function gscJwt(saKey) {
-  const sa = typeof saKey === 'string' ? JSON.parse(saKey) : saKey;
-  const now = Math.floor(Date.now() / 1000);
-  const header = { alg: 'RS256', typ: 'JWT' };
-  const claim = {
-    iss: sa.client_email,
-    scope: 'https://www.googleapis.com/auth/webmasters.readonly',
-    aud: 'https://oauth2.googleapis.com/token',
-    iat: now,
-    exp: now + 3600
-  };
-  const b64 = obj => Buffer.from(JSON.stringify(obj)).toString('base64url');
-  const signInput = `${b64(header)}.${b64(claim)}`;
-  const signer = crypto.createSign('RSA-SHA256');
-  signer.update(signInput);
-  const signature = signer.sign(sa.private_key, 'base64url');
-  const jwt = `${signInput}.${signature}`;
-
+async function gscAccessToken(oauthJson) {
+  const cred = typeof oauthJson === 'string' ? JSON.parse(oauthJson) : oauthJson;
+  if (cred.type !== 'authorized_user' || !cred.refresh_token) {
+    throw new Error('GSC_OAUTH must be authorized_user JSON with refresh_token');
+  }
   const r = await fetch('https://oauth2.googleapis.com/token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: `grant_type=${encodeURIComponent('urn:ietf:params:oauth:grant-type:jwt-bearer')}&assertion=${jwt}`
+    body: new URLSearchParams({
+      client_id: cred.client_id,
+      client_secret: cred.client_secret,
+      refresh_token: cred.refresh_token,
+      grant_type: 'refresh_token'
+    }).toString()
   });
-  if (!r.ok) throw new Error(`OAuth failed: ${r.status} ${await r.text()}`);
-  const j = await r.json();
-  return j.access_token;
+  if (!r.ok) throw new Error(`OAuth refresh failed: ${r.status} ${await r.text()}`);
+  return (await r.json()).access_token;
 }
 
 async function gscQuery(token, body) {
   const r = await fetch(`https://searchconsole.googleapis.com/webmasters/v3/sites/${encodeURIComponent(SITE)}/searchAnalytics/query`, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+      'x-goog-user-project': GSC_QUOTA_PROJECT
+    },
     body: JSON.stringify(body)
   });
   if (!r.ok) throw new Error(`GSC API: ${r.status} ${await r.text()}`);
@@ -139,9 +136,9 @@ function dateNDaysAgo(n) {
 }
 
 async function fetchGscData() {
-  if (!GSC_SA_KEY) return null;
+  if (!GSC_OAUTH) return null;
   try {
-    const token = await gscJwt(GSC_SA_KEY);
+    const token = await gscAccessToken(GSC_OAUTH);
     const ENDED = dateNDaysAgo(3);    // GSC has 2-3 day lag
     const RECENT_START = dateNDaysAgo(9);
     const PREV_END = dateNDaysAgo(10);
@@ -380,7 +377,7 @@ async function main() {
   const gsc = await fetchGscData();
   if (gsc && !gsc.error) console.log(`GSC: ${gsc.queries.length} queries, ${gsc.pages.length} pages, ${gsc.sumRecent.clicks} clicks last 7d`);
   else if (gsc?.error) console.log(`GSC error: ${gsc.error}`);
-  else console.log('GSC: not configured (GSC_SA_KEY missing)');
+  else console.log('GSC: not configured (GSC_OAUTH missing)');
 
   console.log('Scanning sitemap URLs...');
   const urls = readSitemap();
