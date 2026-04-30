@@ -63,4 +63,5 @@ jobs:
       - name: Send weekly digest
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          GSC_SA_KEY: ${{ secrets.GSC_SA_KEY }}
         run: node scripts/seo-weekly-digest.mjs
