@@ -28,6 +28,7 @@ const SLUG_TO_WINDOW = {
   'flutter-framework-contributor-pakistan': 'flutter',
   'flutter-core-contributor-pakistan': 'flutter',
   'flutter-core-contributor-asia': 'flutter',
+  'flutter-contributors-pakistan': 'flutter',
   'flutter-expert': 'flutter',
   'flutter-expert-pakistan': 'flutter',
   'flutter-community-leader': 'speaking',
