@@ -7,6 +7,7 @@
 (function(){
 
   var COVER_GRADIENTS = {
+    'flutter-still-matters-in-ai-era':'linear-gradient(135deg,#0a0f1f 0%,#7c3aed 55%,#fbbf24 100%)',
     'flutter-prs-merged':            'linear-gradient(135deg,#0ea5e9 0%,#6366f1 60%,#8b5cf6 100%)',
     'flutter-three-tree-architecture':'linear-gradient(135deg,#22c55e 0%,#0ea5e9 60%,#6366f1 100%)',
     'flutter-state-management-2026': 'linear-gradient(135deg,#a855f7 0%,#ec4899 50%,#f97316 100%)',

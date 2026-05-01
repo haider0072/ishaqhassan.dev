@@ -4,6 +4,7 @@ speaking
 open-source
 tech-stack
 articles
+articles/flutter-still-matters-in-ai-era
 articles/flutter-prs-merged
 articles/flutter-three-tree-architecture
 articles/flutter-state-management-2026
