@@ -75,7 +75,9 @@
   }
 
   function coverBg(slug){
-    var bannerUrl = '/assets/articles/cover-' + slug + '.svg';
+    // Cache-buster per slug; bump if you replace the SVG. Avoids stale CF 404 cache.
+    var v = (slug === 'flutter-still-matters-in-ai-era') ? '?v=2' : '';
+    var bannerUrl = '/assets/articles/cover-' + slug + '.svg' + v;
     var grad = COVER_GRADIENTS[slug] || 'linear-gradient(135deg,#7dd3fc,#6366f1)';
     // Layered: SVG banner on top, gradient below as fallback if banner fails to load.
     return "url('" + bannerUrl + "') center/cover no-repeat, " + grad;
