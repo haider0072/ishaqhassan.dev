@@ -19,7 +19,7 @@
       title: 'One Spell, Every Kingdom: Why Flutter Still Matters in the AI Era',
       excerpt: 'AI writes WHAT you ask. You still decide WHAT to ask. Cross-platform was never about less typing, it was about fewer decisions, and that gap is widening as code becomes cheap.',
       metaDescription: 'AI writes code in seconds. So does Flutter still matter? Yes, more than ever. Cross-platform was never about less typing, it was about fewer decisions.',
-      cover: '/assets/articles/cover-flutter-magic-spell-ai.svg',
+      cover: '/assets/articles/cover-flutter-still-matters-in-ai-era.svg',
       coverAlt: 'One Spell Every Kingdom: Flutter still matters in the AI era',
       topics: ['flutter','ai','strategy'],
       tags: ['Flutter','AI','Cross-Platform'],
