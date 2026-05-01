@@ -15,6 +15,39 @@
 
   window.ARTICLES = [
     {
+      slug: 'flutter-still-matters-in-ai-era',
+      title: 'One Spell, Every Kingdom: Why Flutter Still Matters in the AI Era',
+      excerpt: 'AI writes WHAT you ask. You still decide WHAT to ask. Cross-platform was never about less typing, it was about fewer decisions, and that gap is widening as code becomes cheap.',
+      metaDescription: 'AI writes code in seconds. So does Flutter still matter? Yes, more than ever. Cross-platform was never about less typing, it was about fewer decisions.',
+      cover: '/assets/articles/cover-flutter-magic-spell-ai.svg',
+      coverAlt: 'One Spell Every Kingdom: Flutter still matters in the AI era',
+      topics: ['flutter','ai','strategy'],
+      tags: ['Flutter','AI','Cross-Platform'],
+      date: '2026-05-01',
+      dateModified: '2026-05-01',
+      readMins: 7,
+      featured: true,
+      icon: '🪄',
+      canonicalUrl: SITE + '/blog/flutter-still-matters-in-ai-era.html',
+      primaryReadUrl: '/blog/flutter-still-matters-in-ai-era.html?stay=1',
+      keyTakeaways: [
+        'AI writes WHAT you ask. You still decide WHAT to ask. Decisions are the new bottleneck.',
+        'Native\'s real cost was never typing twice. It was two parallel design, test, and hiring conversations.',
+        'AI absorbs the typing cost. Cross-platform absorbs the decision cost. The two stack.',
+        'Pick Flutter when team-velocity matters more than 1-2 ms of frame budget. Skip it for camera, audio DSP, deeply platform-integrated tooling.'
+      ],
+      faq: [
+        { q: 'Does AI make Flutter learning easier or harder?', a: 'Easier. Dart has a smaller surface area, AI holds more context, and the framework patterns are well-documented. Native means switching between Swift and Kotlin idioms, which fragments AI context.' },
+        { q: 'Should I learn Swift or Kotlin if I already know Flutter?', a: 'For app-layer work, no. Time is better spent going deep on Dart, Flutter internals, and the platform channel boundary. For systems engineering or platform-native ecosystems, learning the platform language pays off.' },
+        { q: 'Is "knowing what to ask" really a defensible skill in 5 years?', a: 'Yes. Decision skill compounds with experience and lives in messy product context. AI keeps improving at the how. Humans keep being needed for the what and the why. The gap widens as code becomes cheaper.' },
+        { q: 'When should I NOT pick Flutter even with AI?', a: 'Camera-pipeline-heavy apps where every ms of capture-to-frame matters, audio DSP with sub-10ms latency, or tightly platform-integrated apps like keyboards, accessibility services, system utilities. For everything else in 2026, Flutter wins on team velocity.' }
+      ],
+      platforms: [
+        P.site(SITE + '/blog/flutter-still-matters-in-ai-era.html?stay=1', 'On Site'),
+        P.devto('https://dev.to/ishaquehassan')
+      ]
+    },
+    {
       slug: 'flutter-prs-merged',
       title: 'How I Got 6 PRs Merged Into Flutter Framework',
       excerpt: 'A Karachi engineer’s 90-day path into the Flutter framework: triage, the test-first bar, review etiquette, and how to repeat it.',
