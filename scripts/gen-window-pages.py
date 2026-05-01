@@ -832,7 +832,7 @@ ARTICLES_DATA = [
         ],
         "platforms": [
             {"id": "site",   "label": "On Site",  "url": f"{SITE}/blog/flutter-still-matters-in-ai-era.html?stay=1"},
-            {"id": "devto",  "label": "Dev.to",   "url": "https://dev.to/ishaquehassan"},
+            {"id": "devto",  "label": "Dev.to",   "url": "https://dev.to/ishaquehassan/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era-b35"},
         ],
     },
     {

@@ -44,7 +44,7 @@
       ],
       platforms: [
         P.site(SITE + '/blog/flutter-still-matters-in-ai-era.html?stay=1', 'On Site'),
-        P.devto('https://dev.to/ishaquehassan')
+        P.devto('https://dev.to/ishaquehassan/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era-b35')
       ]
     },
     {
