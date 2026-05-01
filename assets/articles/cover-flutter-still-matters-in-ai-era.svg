@@ -54,8 +54,8 @@
 
 <!-- Tag pill: top-left -->
 <g transform="translate(60, 50)">
-  <rect x="0" y="0" rx="26" ry="26" width="260" height="52" fill="rgba(125,211,252,0.14)" stroke="rgba(125,211,252,0.45)" stroke-width="1.5"/>
-  <text x="130" y="34" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="16" font-weight="700" fill="#7dd3fc" letter-spacing="3">FLUTTER · AI · 2026</text>
+  <rect x="0" y="0" rx="26" ry="26" width="290" height="52" fill="rgba(125,211,252,0.14)" stroke="rgba(125,211,252,0.45)" stroke-width="1.5"/>
+  <text x="145" y="34" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="16" font-weight="700" fill="#7dd3fc" letter-spacing="3">FLUTTER · AI · 2026</text>
 </g>
 
 <!-- Three platform "kingdoms" connected by spell -->
@@ -112,9 +112,9 @@
 </g>
 
 <!-- AI badge: bottom right -->
-<g transform="translate(870, 555)">
-  <rect x="0" y="0" rx="28" ry="28" width="280" height="56" fill="rgba(168,139,250,0.16)" stroke="rgba(168,139,250,0.55)" stroke-width="1.5"/>
-  <text x="140" y="36" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="16" fill="#c4b5fd" font-weight="700" letter-spacing="3">AI WRITES · YOU DECIDE</text>
+<g transform="translate(820, 555)">
+  <rect x="0" y="0" rx="28" ry="28" width="330" height="56" fill="rgba(168,139,250,0.16)" stroke="rgba(168,139,250,0.55)" stroke-width="1.5"/>
+  <text x="165" y="36" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="16" fill="#c4b5fd" font-weight="700" letter-spacing="3">AI WRITES · YOU DECIDE</text>
 </g>
 
 <!-- TITLE + SUBTITLE BAND (bottom-left) -->
