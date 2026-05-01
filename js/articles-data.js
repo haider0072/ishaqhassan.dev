@@ -10,7 +10,8 @@
   var P = {
     site:   function(href, label){ return { id:'site',   url:href,            label:label||'On Site',  brand:'#7dd3fc' }; },
     medium: function(href){        return { id:'medium', url:href,            label:'Medium',          brand:'#1a8917' }; },
-    devto:  function(href){        return { id:'devto',  url:href,            label:'Dev.to',          brand:'#0a0a0a' }; }
+    devto:  function(href){        return { id:'devto',  url:href,            label:'Dev.to',          brand:'#0a0a0a' }; },
+    hashnode: function(href){      return { id:'hashnode', url:href,          label:'Hashnode',        brand:'#2962ff' }; }
   };
 
   window.ARTICLES = [
@@ -44,7 +45,8 @@
       ],
       platforms: [
         P.site(SITE + '/blog/flutter-still-matters-in-ai-era.html?stay=1', 'On Site'),
-        P.devto('https://dev.to/ishaquehassan/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era-b35')
+        P.devto('https://dev.to/ishaquehassan/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era-b35'),
+        P.hashnode('https://ishaquehassan.hashnode.dev/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era')
       ]
     },
     {
