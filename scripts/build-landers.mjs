@@ -177,7 +177,10 @@ for (const slug of Object.keys(SLUG_TO_WINDOW)) {
   try {
     const src = fs.readFileSync(sourcePath, 'utf8');
     const lander = parseLander(src);
-    const out = buildLander(slug, indexTemplate, lander);
+    let out = buildLander(slug, indexTemplate, lander);
+    // SEO: demote shared mobile-hero <h1>Ishaq Hassan</h1> to <h2> on lander pages
+    // so the lander-injected <h1> in #x-lander-seo is the unique top-level heading.
+    out = out.replace(/<h1>Ishaq Hassan<\/h1>/g, '<h2 class="mob-hero-h1">Ishaq Hassan</h2>');
     fs.writeFileSync(outPath, out, 'utf8');
     built++;
     console.log(`[ok]  ${slug}.html  → window:${SLUG_TO_WINDOW[slug]}  size:${(out.length/1024).toFixed(0)}KB`);
