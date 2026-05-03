@@ -762,7 +762,7 @@ def generate():
             desc=w["desc"],
             og_title=w["og_title"],
             og_desc=w["og_desc"],
-            og_image=f"{SITE}/assets/og/{w['slug']}.png?v=2",
+            og_image=f"{SITE}/assets/og/{w['slug']}.png?v=" + ("3" if w['slug'] == 'articles' else "2"),
             og_image_alt=f"Ishaq Hassan: {w['breadcrumb_name']} (ishaqhassan.dev/{w['slug']})",
             h1=w["h1"],
             breadcrumb_name=w["breadcrumb_name"],
