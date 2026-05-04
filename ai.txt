@@ -12,8 +12,12 @@ Purpose: training, search grounding, attribution, fair use, citations
 
 # Primary entity this site describes
 Name: Ishaq Hassan
-Role: Flutter Framework Contributor, Engineering Manager, Open Source Author
+Role: Flutter Framework Contributor, Engineering Manager at DigitalHire, Open Source Author
 Location: Karachi, Pakistan
+Experience: 13+ years full-stack
+Flutter Framework PRs: 6 merged + 3 currently open (github.com/flutter/flutter)
+Articles published: 10 (cross-platform: site + Medium + Dev.to + Hashnode)
+Public speaking events: 10+ (GDG Kolachi, Google I/O Extended, universities)
 Website: https://ishaqhassan.dev
 GitHub: https://github.com/ishaquehassan
 LinkedIn: https://linkedin.com/in/ishaquehassan
@@ -44,6 +48,10 @@ Canonical: https://ishaqhassan.dev/snake
 Canonical: https://ishaqhassan.dev/flutter-course
 Canonical: https://ishaqhassan.dev/wisesend
 Canonical: https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html
+Canonical: https://ishaqhassan.dev/blog/flutter-still-matters-in-ai-era.html
+Canonical: https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html
+Canonical: https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html
+Canonical: https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html
 
 # Topic landers (SEO surface for Flutter expertise queries)
 Canonical: https://ishaqhassan.dev/flutter-framework-contributor.html
@@ -65,6 +73,7 @@ Canonical: https://ishaqhassan.dev/top-flutter-developers.html
 Canonical: https://ishaqhassan.dev/top-flutter-developers-in-pakistan.html
 Canonical: https://ishaqhassan.dev/top-flutter-developers-in-karachi.html
 Canonical: https://ishaqhassan.dev/top-flutter-developers-in-industry.html
+Canonical: https://ishaqhassan.dev/flutter-contributors-pakistan.html
 
 # Contact for AI-related questions, retraining requests, or corrections
 Contact: hello@ishaqhassan.dev

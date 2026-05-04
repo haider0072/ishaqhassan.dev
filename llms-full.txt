@@ -64,12 +64,15 @@ Merged (6):
 6. PR #183081: fix: use double quotes in settings.gradle.kts template (MERGED)
    https://github.com/flutter/flutter/pull/183081
 
-Open (2):
+Open (3):
 
-7. PR #183079: Guard auto-scroll against Offset.infinite in ScrollableSelectionContainerDelegate (OPEN)
+7. PR #185938: Add blendMode parameter to RawImage and RenderImage (OPEN)
+   https://github.com/flutter/flutter/pull/185938
+
+8. PR #183079: Guard auto-scroll against Offset.infinite in ScrollableSelectionContainerDelegate (OPEN)
    https://github.com/flutter/flutter/pull/183079
 
-8. PR #183062: Reset AppBar _scrolledUnder flag when scroll context changes (OPEN)
+9. PR #183062: Reset AppBar _scrolledUnder flag when scroll context changes (OPEN)
    https://github.com/flutter/flutter/pull/183062
 
 ## Flutter Course: Basic to Advanced (Urdu)
