@@ -12501,44 +12501,8 @@ body[data-lander-slug] #x-lander-seo strong { color: #fff; }
 .max-resume-btn.ghost { background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.10); }
 .max-resume-btn.ghost:hover { background: rgba(99,102,241,0.10); border-color: rgba(99,102,241,0.4); color: #fff; }
 
-/* ===== CONTACT DIALOG: RESUME (single CTA button + secondary links) ===== */
-.cm-resume-cta {
-  margin-bottom: 16px;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.45s ease 0.5s, transform 0.4s cubic-bezier(.2,.9,.25,1) 0.5s;
-}
-body.contact-morph-active .cm-resume-cta { opacity: 1; transform: translateY(0); }
-body.contact-morph-closing .cm-resume-cta { opacity: 0; transform: translateY(-4px); transition: opacity 0.16s ease, transform 0.16s ease; }
-.cm-resume-btn {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 14px 16px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #6366f1, #4f46e5);
-  border: 1px solid rgba(255,255,255,0.10);
-  text-decoration: none;
-  color: #fff;
-  transition: filter 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
-  will-change: transform;
-}
-.cm-resume-btn:hover { filter: brightness(1.10); transform: translateY(-1px); border-color: rgba(255,255,255,0.20); }
-.cm-resume-btn-icon { flex: 0 0 36px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 10px; background: rgba(255,255,255,0.10); }
-.cm-resume-btn-text { flex: 1; min-width: 0; line-height: 1.25; }
-.cm-resume-btn-label { display: block; font-size: 14.5px; font-weight: 700; letter-spacing: 0.1px; }
-.cm-resume-btn-sub { display: block; font-size: 11.5px; opacity: 0.82; margin-top: 2px; }
-.cm-resume-btn-arrow { flex: 0 0 24px; display: flex; align-items: center; justify-content: center; opacity: 0.85; }
-.cm-resume-links {
-  font-size: 11.5px;
-  color: rgba(199,210,254,0.62);
-  margin-top: 9px;
-  padding-left: 4px;
-  letter-spacing: 0.04em;
-}
-.cm-resume-links a { color: #c7d2fe; text-decoration: none; font-weight: 600; padding: 0 3px; transition: color 0.18s ease; }
-.cm-resume-links a:hover { color: #fff; text-decoration: underline; }
-.cm-resume-dot { opacity: 0.45; }
+/* ===== CONTACT DIALOG: RESUME (matches Direct Links cm-card style, no color) ===== */
+.cm-grid-resume { margin-bottom: 0; }
 
 /* ===== MAX AI CONTACT CARD: RESUME ROW (PILL VARIANT) ===== */
 .max-resume-row {
