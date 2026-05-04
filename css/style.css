@@ -10055,7 +10055,7 @@ body.contact-morph-active #contact-morph-overlay {
   left: 50%;
   top: 50%;
   width: min(720px, 92vw);
-  height: min(626px, 88vh);
+  height: min(638px, 88vh);
   border-radius: 24px;
   /* Idle / closed state: small + blurred + transparent at center */
   transform: translate(-50%, -50%) scale(0.5);
@@ -10128,7 +10128,7 @@ body.contact-morph-closing #contact-morph-panel {
 #contact-morph-close {
   position: absolute;
   top: 16px;
-  right: 36px;
+  right: 16px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -12502,15 +12502,20 @@ body[data-lander-slug] #x-lander-seo strong { color: #fff; }
 .max-resume-btn.ghost { background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.10); }
 .max-resume-btn.ghost:hover { background: rgba(99,102,241,0.10); border-color: rgba(99,102,241,0.4); color: #fff; }
 
-/* ===== CONTACT DIALOG: RESUME label + pills in header (aligned with form right edge) ===== */
-.cm-hdr-actions {
-  position: absolute;
-  top: 16px;
-  right: 76px;
+/* ===== CONTACT DIALOG: RESUME row inline with "Send a Message" heading ===== */
+.cm-h-row {
   display: flex;
-  gap: 8px;
   align-items: center;
-  z-index: 11;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 10px;
+}
+.cm-h-row .cm-h-inline { margin: 0; }
+.cm-hdr-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 .cm-hdr-label {
   font-size: 10px;
@@ -12524,15 +12529,15 @@ body[data-lander-slug] #x-lander-seo strong { color: #fff; }
   display: flex;
   align-items: center;
   gap: 5px;
-  height: 32px;
-  padding: 0 10px;
+  height: 28px;
+  padding: 0 9px;
   font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.06em;
   color: rgba(255,255,255,0.78);
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.10);
-  border-radius: 8px;
+  border-radius: 7px;
   text-decoration: none;
   transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
   white-space: nowrap;
@@ -12545,9 +12550,9 @@ body[data-lander-slug] #x-lander-seo strong { color: #fff; }
 .cm-hdr-btn svg { display: block; opacity: 0.85; }
 .cm-hdr-btn:hover svg { opacity: 1; }
 @media (max-width: 540px) {
-  .cm-hdr-actions { right: 60px; gap: 5px; }
+  .cm-h-row { flex-wrap: wrap; row-gap: 6px; }
   .cm-hdr-label { display: none; }
-  .cm-hdr-btn { padding: 0 7px; font-size: 10px; }
+  .cm-hdr-btn { padding: 0 7px; font-size: 10px; height: 26px; }
   .cm-hdr-btn svg { width: 11px; height: 11px; }
 }
 
