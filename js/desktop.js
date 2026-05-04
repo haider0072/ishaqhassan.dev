@@ -417,8 +417,7 @@ function expandMobileSection(evt, section) {
     'linkedin': 'mobile-linkedin-expanded',
     'medium': 'mobile-medium-expanded',
     'flutter-course': 'mobile-flutter-course-expanded',
-    'about': 'mobile-about-expanded',
-    'resume': 'mobile-resume-expanded'
+    'about': 'mobile-about-expanded'
   };
   const elem = document.getElementById(map[section]);
   if (elem) {
@@ -519,8 +518,7 @@ function closeMobileSection(section) {
     'github': 'mobile-github-expanded',
     'linkedin': 'mobile-linkedin-expanded',
     'flutter-course': 'mobile-flutter-course-expanded',
-    'about': 'mobile-about-expanded',
-    'resume': 'mobile-resume-expanded'
+    'about': 'mobile-about-expanded'
   };
   if (section === 'flutter-course' && typeof stopAllFlutterCourseVideos === 'function') stopAllFlutterCourseVideos();
   if (section === 'snake' && typeof mobSnakeUnlockScroll === 'function') mobSnakeUnlockScroll();
@@ -1176,7 +1174,7 @@ document.querySelectorAll('.window-toolbar').forEach(toolbar => {
 // ===== MULTIPLE DESKTOPS (SPACES) =====
 // Each desktop saves/restores FULL window state independently.
 // Same app can be open on multiple desktops. No cross-contamination.
-const allWindowIds = ['about','flutter','speaking','oss','tech','articles','contact','github','linkedin','snake','flutter-course','fc-player','resume'];
+const allWindowIds = ['about','flutter','speaking','oss','tech','articles','contact','github','linkedin','snake','flutter-course','fc-player'];
 let desktops = [{ id: 0, name: 'Desktop 1' }];
 let currentDesktopId = 0;
 let nextDesktopId = 1;

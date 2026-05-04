@@ -91,8 +91,8 @@ Ishaq Hassan is a Flutter Framework Contributor from Pakistan, based in Karachi.
 - LinkedIn: https://ishaqhassan.dev/linkedin
 - Snake Game: https://ishaqhassan.dev/snake
 - Flutter Course: https://ishaqhassan.dev/flutter-course
-- Resume: https://ishaqhassan.dev/resume (downloadable PDF, DOCX, plain text)
 - WiseSend: https://ishaqhassan.dev/wisesend
+- Resume downloads (inside Contact): PDF https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.pdf?v=1 · DOCX https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.docx?v=1 · TXT https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.txt?v=1
 
 ## AI Policy
 - [AI crawler policy](https://ishaqhassan.dev/ai.txt) - welcomes AI systems for indexing, grounding and attribution

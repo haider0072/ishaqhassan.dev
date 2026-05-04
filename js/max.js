@@ -612,7 +612,39 @@
   }
 
   function buildContactCardsBlockHTML() {
-    return '<div class="max-cards-block">' + buildContactCardsHTML() + '</div>';
+    var resumeRow = (
+      '<div class="max-cards-section" style="margin-top:14px;">Resume</div>' +
+      '<div class="max-resume-row">' +
+        '<a class="max-resume-pill primary" href="' + RESUME_CARD.pdfHref + '" download>' +
+          '<span class="max-resume-pill-icon">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none">' +
+              '<path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>' +
+              '<path d="M14 2v6h6" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>' +
+              '<path d="M9 14l3 3 3-3M12 11v6" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>' +
+            '</svg>' +
+          '</span>' +
+          '<span class="max-resume-pill-text"><span class="max-resume-pill-label">PDF</span><span class="max-resume-pill-sub">2 pages, ATS clean</span></span>' +
+        '</a>' +
+        '<a class="max-resume-pill" href="' + RESUME_CARD.docxHref + '" download>' +
+          '<span class="max-resume-pill-icon">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none">' +
+              '<rect x="4" y="2" width="16" height="20" rx="2" stroke="currentColor" stroke-width="1.6"/>' +
+              '<path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>' +
+            '</svg>' +
+          '</span>' +
+          '<span class="max-resume-pill-text"><span class="max-resume-pill-label">DOCX</span><span class="max-resume-pill-sub">ATS systems</span></span>' +
+        '</a>' +
+        '<a class="max-resume-pill" href="' + (RESUME_CARD.pageHref || '/resume') + '" onclick="if (typeof navigate===\'function\') { navigate(\'contact\'); event.preventDefault(); return false; }">' +
+          '<span class="max-resume-pill-icon">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none">' +
+              '<path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>' +
+            '</svg>' +
+          '</span>' +
+          '<span class="max-resume-pill-text"><span class="max-resume-pill-label">More</span><span class="max-resume-pill-sub">contact dialog</span></span>' +
+        '</a>' +
+      '</div>'
+    );
+    return '<div class="max-cards-block">' + buildContactCardsHTML() + resumeRow + '</div>';
   }
 
   function buildVideoCard(v, idx) {

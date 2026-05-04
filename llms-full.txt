@@ -199,11 +199,10 @@ linkedin, wisesend, snake) plus an inline hire-inquiry form.
 - https://ishaqhassan.dev/linkedin          (LinkedIn profile)
 - https://ishaqhassan.dev/snake             (Snake Neon arcade game)
 - https://ishaqhassan.dev/flutter-course    (35-video Urdu course)
-- https://ishaqhassan.dev/resume            (Resume window, downloadable PDF/DOCX/plain text)
 - https://ishaqhassan.dev/wisesend          (Side project)
 
 ## Resume / CV
-The full resume is available in three formats, all linked from /resume:
+Resume lives inside the Contact dialog (desktop liquid-morph + mobile Connect section) and is also offered by the Max AI chatbot whenever the user asks about resume / CV / hiring credentials. Three formats:
 - PDF (2 pages, 187 KB): https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.pdf?v=1
 - DOCX (ATS-optimised, 41 KB): https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.docx?v=1
 - Plain text (8.7 KB): https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.txt?v=1

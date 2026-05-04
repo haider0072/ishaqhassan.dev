@@ -2961,8 +2961,7 @@ var WINDOW_PATHS = {
   linkedin: '/linkedin',
   snake: '/snake',
   'flutter-course': '/flutter-course',
-  wisesend: '/wisesend',
-  resume: '/resume'
+  wisesend: '/wisesend'
 };
 var PATH_TO_WINDOW = {};
 Object.keys(WINDOW_PATHS).forEach(function(id){ PATH_TO_WINDOW[WINDOW_PATHS[id]] = id; });
