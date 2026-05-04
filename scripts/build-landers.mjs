@@ -181,6 +181,18 @@ for (const slug of Object.keys(SLUG_TO_WINDOW)) {
     // SEO: demote shared mobile-hero <h1>Ishaq Hassan</h1> to <h2> on lander pages
     // so the lander-injected <h1> in #x-lander-seo is the unique top-level heading.
     out = out.replace(/<h1>Ishaq Hassan<\/h1>/g, '<h2 class="mob-hero-h1">Ishaq Hassan</h2>');
+    // SEO: strip shell's FAQPage from main @graph JSON-LD because each lander has
+    // its OWN FAQPage with lander-specific Q&A, and Google flags duplicate FAQPage
+    // schema as invalid (only one FAQPage per page is allowed).
+    out = out.replace(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/, (full, body) => {
+      try {
+        const data = JSON.parse(body.trim());
+        if (Array.isArray(data['@graph'])) {
+          data['@graph'] = data['@graph'].filter(item => item['@type'] !== 'FAQPage');
+        }
+        return full.replace(body, '\n' + JSON.stringify(data, null, 2) + '\n');
+      } catch { return full; }
+    });
     fs.writeFileSync(outPath, out, 'utf8');
     built++;
     console.log(`[ok]  ${slug}.html  → window:${SLUG_TO_WINDOW[slug]}  size:${(out.length/1024).toFixed(0)}KB`);
