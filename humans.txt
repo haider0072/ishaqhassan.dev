@@ -18,7 +18,7 @@ DigitalHire for the engineering leadership role.
 
 /* SITE */
 Built with: Vanilla HTML, CSS, JavaScript, SVG
-Interactive desktop: 14 windows, macOS-style chrome, live Snake game
+Interactive desktop: 15 windows including Resume, macOS-style chrome, live Snake game
 Hosted: nginx at 159.65.105.177
 Deploy: GitHub Actions auto-deploy on push to main
 SEO: 100% across 29-check audit on 23 directory pages + 16-check home (12 windows + 1 articles hub + 10 per-article pages)

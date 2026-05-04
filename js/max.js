@@ -886,6 +886,40 @@
     return false;
   };
 
+  const RESUME_CARD = {
+    title: 'Ishaq Hassan, Resume',
+    role: 'Senior Software Engineer, Flutter Framework Contributor',
+    exp: '13+ years',
+    highlights: [
+      '6 PRs merged into flutter/flutter (3 under review)',
+      'Urdu Flutter course on official docs.flutter.dev',
+      'GDG Kolachi mentor, 10+ speaking events',
+      'Engineering lead at DigitalHire (AI recruitment platform)'
+    ],
+    pdfHref: '/assets/resume/Ishaq_Hassan_Resume.pdf',
+    docxHref: '/assets/resume/Ishaq_Hassan_Resume.docx',
+    pageHref: '/resume'
+  };
+
+  function buildResumeCardHTML() {
+    return (
+      '<div class="max-resume-card">' +
+        '<div class="max-resume-head">' +
+          '<div class="max-resume-title">' + RESUME_CARD.title + '</div>' +
+          '<div class="max-resume-meta">' + RESUME_CARD.role + ' &middot; ' + RESUME_CARD.exp + '</div>' +
+        '</div>' +
+        '<ul class="max-resume-highlights">' +
+          RESUME_CARD.highlights.map(function(h){ return '<li>' + h + '</li>'; }).join('') +
+        '</ul>' +
+        '<div class="max-resume-actions">' +
+          '<a class="max-resume-btn primary" href="' + RESUME_CARD.pdfHref + '" download>Download PDF</a>' +
+          '<a class="max-resume-btn ghost" href="' + RESUME_CARD.docxHref + '" download>DOCX (ATS)</a>' +
+          '<a class="max-resume-btn ghost" href="' + RESUME_CARD.pageHref + '" onclick="if (typeof navigate===\'function\') { navigate(\'resume\'); event.preventDefault(); return false; }">View on site</a>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
   const CARD_BUILDERS = {
     contact: () => buildContactCardsBlockHTML(),
     prs: () => buildPRsCardsHTML(),
@@ -901,6 +935,8 @@
     videos: (p) => buildVideoCardsHTML(p),
     form: (p) => buildInquiryFormHTML(p),
     inquiry_sent: (p) => buildInquirySentCardHTML(String(p || 'general').toLowerCase()),
+    resume: () => buildResumeCardHTML(),
+    cv: () => buildResumeCardHTML(),
   };
 
   // Extract card tags from text. Supported:

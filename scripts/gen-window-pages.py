@@ -313,6 +313,46 @@ Subscribe to the channel: <a href="https://www.youtube.com/@ishaquehassan?sub_co
 """,
     },
     {
+        "slug": "resume",
+        "id": "resume",
+        "title": "Resume | Ishaq Hassan, Senior Software Engineer & Flutter Framework Contributor",
+        "desc": "Resume of Ishaq Hassan: Senior Software Engineer with 13+ years experience, 6 PRs merged into the Flutter framework, current Engineering Lead at DigitalHire. Download PDF, DOCX, or plain text.",
+        "og_title": "Ishaq Hassan, Resume (PDF/DOCX/Text)",
+        "og_desc": "13+ years engineering, 6 PRs merged into flutter/flutter, Urdu Flutter course on official Flutter docs. Download the resume in PDF, DOCX or plain text.",
+        "h1": "Resume",
+        "breadcrumb_name": "Resume",
+        "json_ld_type": "ProfilePage",
+        "body_html": """
+<p>This is the public resume of <strong>Ishaq Hassan</strong>, a Senior Software Engineer and Flutter framework contributor based in Karachi, Pakistan. Open to remote engineering, technical lead and engineering management roles globally.</p>
+<h2>Snapshot</h2>
+<ul>
+  <li>13+ years of full-stack engineering, 50+ production mobile and web applications shipped.</li>
+  <li>6 Pull Requests merged into Google's official Flutter framework (<a href="https://github.com/flutter/flutter/pulls?q=author%3Aishaquehassan" rel="noopener">flutter/flutter</a>), 3 currently under review.</li>
+  <li>Current role: Senior Software Engineer & Technical Lead at <a href="https://digitalhire.com" rel="noopener">DigitalHire</a>, the world's first integrated talent engine (AI-powered recruitment platform).</li>
+  <li>Author of the only Urdu Flutter course officially listed on <a href="https://docs.flutter.dev/resources/courses" rel="noopener">docs.flutter.dev/resources/courses</a>.</li>
+  <li>GDG Kolachi mentor, 10+ public speaking events.</li>
+</ul>
+<h2>Download</h2>
+<ul>
+  <li><a href="/assets/resume/Ishaq_Hassan_Resume.pdf" download>PDF (2 pages, ATS-optimised)</a></li>
+  <li><a href="/assets/resume/Ishaq_Hassan_Resume.docx" download>DOCX (best for Workday, Greenhouse, Lever, Taleo, iCIMS, BambooHR)</a></li>
+  <li><a href="/assets/resume/Ishaq_Hassan_Resume.txt" download>Plain text (for legacy ATS forms)</a></li>
+</ul>
+<h2>Highlights</h2>
+<ul>
+  <li><strong>Flutter framework contributions</strong>: <code>clipBehavior</code> on AnimatedCrossFade (PR #184545), <code>scrollPadding</code> on DropdownMenu (PR #183109), CurvedAnimation/CurveTween disposal docs (PR #184569), LicenseRegistry NOTICES fix (PR #184572), and more.</li>
+  <li><strong>Cross-platform mobile architecture</strong>: shipped Flutter apps for iOS, Android, and Web from a single codebase, cutting mobile engineering effort by 60% versus separate native stacks.</li>
+  <li><strong>Engineering leadership</strong>: mentor distributed engineering teams of 6+ engineers, lead architecture reviews and technical hiring.</li>
+  <li><strong>Open source</strong>: <a href="https://github.com/ishaquehassan/document_scanner_flutter" rel="noopener">document_scanner_flutter</a> (63 stars, 135 forks), <a href="https://github.com/ishaquehassan/flutter_alarm_background_trigger" rel="noopener">flutter_alarm_background_trigger</a>, <a href="https://github.com/ishaquehassan/assets_indexer" rel="noopener">assets_indexer</a>, <a href="https://github.com/ishaquehassan/goal-agent" rel="noopener">goal-agent</a>.</li>
+  <li><strong>Speaking</strong>: DevFest Karachi 2021 panel on "Scaling Products with Flutter" (with Waleed Arshad and Sakina Abbas), Google I/O Extended Karachi, Flutter Bootcamp at GDG Kolachi, Flutter Seminar at Iqra University, inaugural speaker at the Nest I/O Facebook Developer Circle.</li>
+</ul>
+<h2>Tech stack</h2>
+<p><strong>Mobile:</strong> Flutter, Dart, Android (Kotlin/Java), iOS (Swift/Objective-C), React Native, Platform Channels, FFI. <strong>Frontend:</strong> TypeScript, React, Next.js. <strong>Backend:</strong> Node.js, NestJS, Python, Go, Spring Boot, PHP, REST, GraphQL, Microservices, Cloudflare Workers. <strong>Cloud / DevOps:</strong> Firebase, AWS, GCP, Docker, GitHub Actions, CI/CD, Linux, Nginx. <strong>AI:</strong> OpenAI API, Anthropic Claude API, OpenRouter, RAG pipelines, prompt engineering.</p>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:hello@ishaqhassan.dev">hello@ishaqhassan.dev</a>. Phone: <a href="tel:+923452993669">+92-345-2993669</a>. LinkedIn: <a href="https://linkedin.com/in/ishaquehassan" rel="noopener">linkedin.com/in/ishaquehassan</a>. GitHub: <a href="https://github.com/ishaquehassan" rel="noopener">github.com/ishaquehassan</a>.</p>
+""",
+    },
+    {
         "slug": "wisesend",
         "id": "wisesend",
         "title": "WiseSend | Side Project by Ishaq Hassan (XRLabs)",

@@ -160,6 +160,7 @@ Tags (each on its own line, exactly as shown):
 - [[CARDS:speaking]] → renders top 4 speaking event cards
 - [[CARDS:opensource]] → renders top 4 OSS repo cards with stars + language
 - [[CARDS:tech]] → renders categorized tech-stack chip groups (Mobile / Backend / Cloud / Data)
+- [[RESUME]] → renders a resume card with PDF + DOCX download buttons + "View on site" link
 
 When to use (CRITICAL, emit the tag instead of typing items as text):
 - "how can I contact / reach / email Ishaq" → 1 short sentence + [[CARDS:contact]]
@@ -169,6 +170,7 @@ When to use (CRITICAL, emit the tag instead of typing items as text):
 - "speaking events / talks / meetups" → 1 short lead-in + [[CARDS:speaking]]
 - "open source / packages / pub.dev" → 1 short lead-in + [[CARDS:opensource]]
 - "tech stack / what technologies / what does he use / kya use karta" → ALWAYS 1 short lead-in + [[CARDS:tech]]. NEVER list mobile/backend/databases/devops as a typed bullet list, the [[CARDS:tech]] tag DOES that visually. Listing them as text is FORBIDDEN.
+- "show resume / send me his resume / download cv / can I have his resume / qualifications / background / experience overview / hire qualification" → 1 short sentence + [[RESUME]]. The card already has PDF + DOCX + View buttons; do NOT duplicate them in prose.
 
 PARAMETERIZED CARDS (specific items, not whole list):
 You can also emit cards for SPECIFIC items by passing an ID/slug:

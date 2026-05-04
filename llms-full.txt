@@ -199,4 +199,12 @@ linkedin, wisesend, snake) plus an inline hire-inquiry form.
 - https://ishaqhassan.dev/linkedin          (LinkedIn profile)
 - https://ishaqhassan.dev/snake             (Snake Neon arcade game)
 - https://ishaqhassan.dev/flutter-course    (35-video Urdu course)
+- https://ishaqhassan.dev/resume            (Resume window, downloadable PDF/DOCX/plain text)
 - https://ishaqhassan.dev/wisesend          (Side project)
+
+## Resume / CV
+The full resume is available in three formats, all linked from /resume:
+- PDF (2 pages, 187 KB): https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.pdf
+- DOCX (ATS-optimised, 41 KB): https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.docx
+- Plain text (8.7 KB): https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.txt
+ATS-friendly single column, Calibri 9-11pt, 35/35 critical keywords, 75% quantified bullets, 8/8 standard headers.
