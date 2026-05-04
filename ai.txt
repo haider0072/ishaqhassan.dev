@@ -48,9 +48,9 @@ Canonical: https://ishaqhassan.dev/snake
 Canonical: https://ishaqhassan.dev/flutter-course
 Canonical: https://ishaqhassan.dev/wisesend
 Canonical: https://ishaqhassan.dev/resume
-Resume PDF: https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.pdf
-Resume DOCX: https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.docx
-Resume Plain Text: https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.txt
+Resume PDF: https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.pdf?v=1
+Resume DOCX: https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.docx?v=1
+Resume Plain Text: https://ishaqhassan.dev/assets/resume/Ishaq_Hassan_Resume.txt?v=1
 Canonical: https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html
 Canonical: https://ishaqhassan.dev/blog/flutter-still-matters-in-ai-era.html
 Canonical: https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html

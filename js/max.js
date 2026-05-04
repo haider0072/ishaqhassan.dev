@@ -896,8 +896,8 @@
       'GDG Kolachi mentor, 10+ speaking events',
       'Engineering lead at DigitalHire (AI recruitment platform)'
     ],
-    pdfHref: '/assets/resume/Ishaq_Hassan_Resume.pdf',
-    docxHref: '/assets/resume/Ishaq_Hassan_Resume.docx',
+    pdfHref: '/assets/resume/Ishaq_Hassan_Resume.pdf?v=1',
+    docxHref: '/assets/resume/Ishaq_Hassan_Resume.docx?v=1',
     pageHref: '/resume'
   };
 
