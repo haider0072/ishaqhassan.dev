@@ -8728,6 +8728,65 @@ a.li-tl-company:hover { color: #7dd3fc; }
    can't override .max-panel { display:none } unconditionally. */
 .max-mob-direct.max-panel-active { display: flex; flex-direction: column; gap: 10px; }
 
+/* ===== Mobile contact direct panel: sexy intro row matching desktop pattern ===== */
+.mob-direct-intro { padding: 2px 2px 4px; }
+.mob-direct-h-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+.mob-direct-h {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+}
+.mob-direct-intro .cm-hdr-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.mob-direct-intro .cm-hdr-label {
+  display: inline-block !important;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.42);
+  padding-right: 2px;
+}
+.mob-direct-intro .cm-hdr-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 26px;
+  padding: 0 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.78);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+.mob-direct-intro .cm-hdr-btn svg { display: block; opacity: 0.85; width: 11px; height: 11px; }
+.mob-direct-intro .cm-hdr-btn:active {
+  background: rgba(255,255,255,0.10);
+  color: #fff;
+  border-color: rgba(255,255,255,0.22);
+}
+@media (max-width: 380px) {
+  .mob-direct-intro .cm-hdr-label { display: none !important; }
+  .mob-direct-intro .cm-hdr-btn { padding: 0 7px; }
+}
+
 /* Responsive: tighten in narrower windows + mobile */
 @media (max-width: 640px) {
   .max-tabs { padding: 8px 10px 6px; gap: 5px; }
