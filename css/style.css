@@ -11857,13 +11857,22 @@ body.contact-morph-closing .cm-form-section {
   border-radius: 12px !important;
 }
 .mob-connect-icon svg { opacity: 0.92; }
-.mob-connect-icon svg path,
-.mob-connect-icon svg rect,
-.mob-connect-icon svg circle {
+/* Filled glyphs (GitHub, LinkedIn, Medium, Stack Overflow, TikTok, X): no stroke attr -> recolor fill */
+.mob-connect-icon svg path:not([stroke]),
+.mob-connect-icon svg rect:not([stroke]),
+.mob-connect-icon svg circle:not([stroke]),
+.mob-connect-icon svg polygon:not([stroke]) {
   fill: #e5e7eb !important;
+}
+/* Outline glyphs (email envelope, website globe, dots): keep strokes, no fill bleed */
+.mob-connect-icon svg path[stroke],
+.mob-connect-icon svg rect[stroke],
+.mob-connect-icon svg circle[stroke],
+.mob-connect-icon svg line[stroke] {
+  fill: none !important;
   stroke: #e5e7eb !important;
 }
-/* Some icons use stroke-only paths (email, website, tiktok) — keep those readable */
+/* Belt-and-braces: explicit fill="none" attribute always wins */
 .mob-connect-icon svg [fill="none"] { fill: none !important; }
 .mob-connect-icon svg [fill-opacity] { fill-opacity: 1 !important; }
 
