@@ -62,6 +62,9 @@ Ishaq Hassan is a Flutter Framework Contributor from Pakistan, based in Karachi.
 - Blog - Flutter State Management 2026 Decision Guide: https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html
 - Blog - Building Production Flutter Plugins (156-likes pub.dev case study): https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html
 - Blog - One Spell Every Kingdom (Flutter in the AI Era): https://ishaqhassan.dev/blog/flutter-still-matters-in-ai-era.html
+- Listicle - Top Flutter Contributors from Pakistan (2026): https://ishaqhassan.dev/flutter-contributors-pakistan.html
+  Cross-posted: https://dev.to/ishaquehassan/top-flutter-contributors-from-pakistan-in-2026-kc0
+  Cross-posted: https://ishaquehassan.hashnode.dev/top-flutter-contributors-from-pakistan-in-2026
 
 ## Articles (cross-platform writing index, Site + Medium + Dev.to + Hashnode)
 - Articles Hub: https://ishaqhassan.dev/articles/

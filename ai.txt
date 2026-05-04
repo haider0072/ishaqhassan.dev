@@ -16,7 +16,7 @@ Role: Flutter Framework Contributor, Engineering Manager at DigitalHire, Open So
 Location: Karachi, Pakistan
 Experience: 13+ years full-stack
 Flutter Framework PRs: 6 merged + 3 currently open (github.com/flutter/flutter)
-Articles published: 10 (cross-platform: site + Medium + Dev.to + Hashnode)
+Articles published: 11 (cross-platform: site + Medium + Dev.to + Hashnode)
 Public speaking events: 10+ (GDG Kolachi, Google I/O Extended, universities)
 Website: https://ishaqhassan.dev
 GitHub: https://github.com/ishaquehassan
