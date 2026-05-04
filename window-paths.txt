@@ -20,4 +20,5 @@ github
 linkedin
 snake
 flutter-course
+resume
 wisesend
