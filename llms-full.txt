@@ -168,7 +168,7 @@ linkedin, wisesend, snake) plus an inline hire-inquiry form.
 - https://ishaqhassan.dev/speaking          (Tech talks & community events)
 - https://ishaqhassan.dev/open-source       (Flutter packages and tools)
 - https://ishaqhassan.dev/tech-stack        (Languages, frameworks, DevOps)
-- https://ishaqhassan.dev/articles/         (cross-platform writing hub, 9 articles across Site + Medium + Dev.to with per-article deep links)
+- https://ishaqhassan.dev/articles/         (cross-platform writing hub, 10 articles across Site + Medium + Dev.to with per-article deep links)
 - https://ishaqhassan.dev/contact           (Email + social links)
 - https://ishaqhassan.dev/github            (GitHub profile)
 - https://ishaqhassan.dev/linkedin          (LinkedIn profile)

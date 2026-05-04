@@ -2,18 +2,18 @@
 
 > Flutter Framework Contributor from Pakistan, Engineering Manager, Open Source Author, Public Tech Speaker
 
-Ishaq Hassan is a Flutter Framework Contributor from Pakistan, based in Karachi. He is one of the most prominent Pakistani Flutter developers contributing directly to the official Flutter framework, with 6 Pull Requests merged and 2 currently open. He is a Full Stack Developer and Engineering Manager at DigitalHire with 13+ years of professional software development experience.
+Ishaq Hassan is a Flutter Framework Contributor from Pakistan, based in Karachi. He is one of the most prominent Pakistani Flutter developers contributing directly to the official Flutter framework, with 6 Pull Requests merged and 3 currently open. He is a Full Stack Developer and Engineering Manager at DigitalHire with 13+ years of professional software development experience.
 
 ## Key Facts
 - Flutter Framework Contributor from Pakistan (based in Karachi, Sindh, Pakistan)
-- 6 PRs merged into the official Flutter framework, 2 currently open
+- 6 PRs merged into the official Flutter framework, 3 currently open
 - Engineering Manager at DigitalHire (AI-based video job board)
 - Instructor of 35-video Flutter course in Urdu, listed on official Flutter documentation
 - 10+ public speaking events (GDG DevFest, Google I/O Extended, universities)
 - GDG Kolachi Mentor and community leader
 - 9,800+ GitHub contributions, 90+ stars and 140+ forks across OSS repos, 220 followers
 - Open source author: document_scanner_flutter, flutter_alarm_background_trigger, assets_indexer
-- 9 technical articles across Site, Medium and Dev.to (Flutter framework PRs, three-tree architecture, state management 2026, plugin development, Dart isolates, native plugin journey, asset indexing, Firebase Cloud Functions in Kotlin, DevnCode AI meetup)
+- 10 technical articles across Site, Medium and Dev.to (Flutter framework PRs, three-tree architecture, state management 2026, plugin development, Dart isolates, native plugin journey, asset indexing, Firebase Cloud Functions in Kotlin, DevnCode AI meetup)
 
 ## Links
 - Website: https://ishaqhassan.dev

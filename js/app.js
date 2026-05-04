@@ -2352,7 +2352,7 @@ var spotlightIndex = [
   {t:'Add scrollPadding property to DropdownMenu',s:'Flutter PR #183109, Merged',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(4)',p:70},
   {t:'Fix RouteAware.didPushNext documentation inaccuracy',s:'Flutter PR #183097, Merged',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(5)',p:70},
   {t:'Use double quotes in settings.gradle.kts template',s:'Flutter PR #183081, Merged',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(6)',p:70},
-  {t:'Suppress browser word-selection in SelectableText on web right-click',s:'Flutter PR #183110, Open',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(7)',p:70},
+  {t:'Add blendMode parameter to RawImage and RenderImage',s:'Flutter PR #185938, Open',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(7)',p:70},
   {t:'Guard auto-scroll against Offset.infinite',s:'Flutter PR #183079, Open',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(8)',p:70},
   {t:'Reset AppBar _scrolledUnder flag when scroll context changes',s:'Flutter PR #183062, Open',w:'flutter',cat:'Contributions',icon:'🔀',el:'#win-flutter .pr-card:nth-child(9)',p:70},
 

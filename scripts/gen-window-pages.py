@@ -52,29 +52,29 @@ He has spoken at <strong>GDG Kolachi, Iqra University, DevnCode</strong> and mul
         "slug": "flutter-contributions",
         "id": "flutter",
         "title": "Flutter Contributions | 6 Merged PRs by Ishaq Hassan",
-        "desc": "6 pull requests merged into the official Flutter framework, 3 approved. Framework-level contributions from Pakistan with full PR list and context.",
+        "desc": "6 pull requests merged into the official Flutter framework, 3 currently open. Framework-level contributions from Pakistan with full PR list and context.",
         "og_title": "Flutter Framework Contributions: 6 Merged PRs",
-        "og_desc": "Framework-level Flutter PRs authored by Ishaq Hassan. Six merged, three approved. Details and links on this page.",
+        "og_desc": "Framework-level Flutter PRs authored by Ishaq Hassan. Six merged into the Flutter framework, three currently open in active review.",
         "h1": "Flutter Framework Contributions",
         "breadcrumb_name": "Flutter Contributions",
         "json_ld_type": "CollectionPage",
         "body_html": """
-<p>Ishaq Hassan has <strong>6 pull requests merged</strong> into the official Flutter framework at <a href="https://github.com/flutter/flutter" rel="noopener">github.com/flutter/flutter</a>, with 3 more approved and awaiting merge.
-All PRs passed the Flutter team's tree-hygiene, test coverage and review standards.</p>
-<h2>Merged PRs</h2>
+<p>Ishaq Hassan has <strong>6 pull requests merged</strong> into the official Flutter framework at <a href="https://github.com/flutter/flutter" rel="noopener">github.com/flutter/flutter</a>, with 3 more currently open in active review.
+All merged PRs passed the Flutter team's tree-hygiene, test coverage and review standards.</p>
+<h2>Merged PRs (6)</h2>
 <ul>
-  <li><a href="https://github.com/flutter/flutter/pull/183062" rel="noopener">#183062</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/183079" rel="noopener">#183079</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/183081" rel="noopener">#183081</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/183097" rel="noopener">#183097</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/183109" rel="noopener">#183109</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/184572" rel="noopener">#184572</a>: LicenseRegistry NOTICES fix</li>
+  <li><a href="https://github.com/flutter/flutter/pull/183081" rel="noopener">#183081</a>: Use double quotes in settings.gradle.kts template</li>
+  <li><a href="https://github.com/flutter/flutter/pull/183097" rel="noopener">#183097</a>: Fix RouteAware.didPushNext documentation inaccuracy</li>
+  <li><a href="https://github.com/flutter/flutter/pull/183109" rel="noopener">#183109</a>: Add scrollPadding property to DropdownMenu</li>
+  <li><a href="https://github.com/flutter/flutter/pull/184545" rel="noopener">#184545</a>: Add clipBehavior parameter to AnimatedCrossFade</li>
+  <li><a href="https://github.com/flutter/flutter/pull/184569" rel="noopener">#184569</a>: Add disposal guidance to CurvedAnimation and CurveTween docs</li>
+  <li><a href="https://github.com/flutter/flutter/pull/184572" rel="noopener">#184572</a>: Fix LicenseRegistry docs to reference NOTICES instead of LICENSE</li>
 </ul>
-<h2>Approved</h2>
+<h2>Currently Open (3)</h2>
 <ul>
-  <li><a href="https://github.com/flutter/flutter/pull/183110" rel="noopener">#183110</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/184545" rel="noopener">#184545</a></li>
-  <li><a href="https://github.com/flutter/flutter/pull/184569" rel="noopener">#184569</a></li>
+  <li><a href="https://github.com/flutter/flutter/pull/185938" rel="noopener">#185938</a>: Add blendMode parameter to RawImage and RenderImage</li>
+  <li><a href="https://github.com/flutter/flutter/pull/183079" rel="noopener">#183079</a>: Guard auto-scroll against Offset.infinite in scrollable selection</li>
+  <li><a href="https://github.com/flutter/flutter/pull/183062" rel="noopener">#183062</a>: Reset AppBar _scrolledUnder flag when scroll context changes</li>
 </ul>
 <p>Full list of authored PRs: <a href="https://github.com/flutter/flutter/pulls?q=author%3Aishaquehassan" rel="noopener">github.com/flutter/flutter/pulls?q=author:ishaquehassan</a>.
 Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-flutter.html">How I Got 6 PRs Merged Into Flutter</a>.</p>
