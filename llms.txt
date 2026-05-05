@@ -27,6 +27,8 @@ Ishaq Hassan is a Flutter Framework Contributor from Pakistan, based in Karachi.
 - Dev.to: https://dev.to/ishaquehassan
 - X (Twitter): https://x.com/ishaque_hassan
 - Email: hello@ishaqhassan.dev
+- Atom Feed: https://ishaqhassan.dev/feed.xml
+- Sitemap: https://ishaqhassan.dev/sitemap.xml
 
 ## AI Assistant
 - Max, interactive AI chatbot embedded in the Contact dialog and dock pill on the homepage. Powered by deepseek/deepseek-chat via OpenRouter on Cloudflare Workers. Can answer questions about Ishaq, his work, and general programming. Supports rich card UIs (PRs, articles, course videos, OSS repos, contact links, speaking events, tech stack) and direct lead-email capture from hello@ishaqhassan.dev to Ishaq's inbox.

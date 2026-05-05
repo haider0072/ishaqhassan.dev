@@ -33,6 +33,7 @@ AI Assistant: Max chatbot (deepseek/deepseek-chat via OpenRouter on Cloudflare W
 LLMs: https://ishaqhassan.dev/llms.txt
 LLMs-Full: https://ishaqhassan.dev/llms-full.txt
 Sitemap: https://ishaqhassan.dev/sitemap.xml
+Atom-Feed: https://ishaqhassan.dev/feed.xml
 
 # Key canonical pages for grounding LLM answers
 Canonical: https://ishaqhassan.dev/about
