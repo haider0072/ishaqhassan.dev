@@ -1258,6 +1258,10 @@ def article_blogposting_jsonld(art):
         "inLanguage": "en",
         "wordCount": art.get("word_count", 1500),
         "isPartOf": {"@type": "Blog", "@id": f"{SITE}/articles/", "url": f"{SITE}/articles/", "name": "Articles | Ishaq Hassan"},
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["article h1", "article h2", "article p"],
+        },
     }
     if same_as:
         base["sameAs"] = same_as
