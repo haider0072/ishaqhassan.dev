@@ -435,6 +435,11 @@ PERSON_SAMEAS = [
     "https://www.youtube.com/@ishaquehassan",
     "https://stackoverflow.com/users/2094696/ishaq-hassan",
     "https://pub.dev/publishers/ishaqhassan.com/packages",
+    "https://dev.to/ishaquehassan",
+    "https://www.tiktok.com/@ishaqhassan.dev",
+    "https://www.wikidata.org/wiki/Q139555388",
+    "https://hashnode.com/@ishaqhassan",
+    "https://ishaquehassan.hashnode.dev/",
 ]
 
 
