@@ -515,7 +515,53 @@ def build_webpage_jsonld(window):
     elif t == "CollectionPage":
         person = build_person_entity()
         base["about"] = person
-        base["mainEntity"] = person
+        # Open-source page gets a real ItemList of SoftwareSourceCode entries per package
+        if window["slug"] == "open-source":
+            base["mainEntity"] = {
+                "@type": "ItemList",
+                "name": "Open Source Flutter packages and tools by Ishaq Hassan",
+                "numberOfItems": 6,
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "item": {
+                        "@type": "SoftwareSourceCode", "name": "document_scanner_flutter",
+                        "description": "Native iOS and Android document scanning bridged to Flutter, with auto-edge detection, perspective correction and PDF export.",
+                        "codeRepository": "https://github.com/ishaquehassan/document_scanner_flutter",
+                        "programmingLanguage": "Dart", "author": person,
+                    }},
+                    {"@type": "ListItem", "position": 2, "item": {
+                        "@type": "SoftwareSourceCode", "name": "flutter_alarm_background_trigger",
+                        "description": "Background alarm scheduler for Flutter that survives Doze mode on Android and respects iOS background-exec windows.",
+                        "codeRepository": "https://github.com/ishaquehassan/flutter_alarm_background_trigger",
+                        "programmingLanguage": "Dart", "author": person,
+                    }},
+                    {"@type": "ListItem", "position": 3, "item": {
+                        "@type": "SoftwareSourceCode", "name": "assets_indexer",
+                        "description": "Dart code generator producing strongly-typed asset references inspired by Android's R.java.",
+                        "codeRepository": "https://github.com/ishaquehassan/assets_indexer",
+                        "programmingLanguage": "Dart", "author": person,
+                    }},
+                    {"@type": "ListItem", "position": 4, "item": {
+                        "@type": "SoftwareSourceCode", "name": "nadra_verisys_flutter",
+                        "description": "SDK for Pakistan's NADRA Verisys identity verification service, built for fintech KYC.",
+                        "codeRepository": "https://github.com/ishaquehassan/nadra_verisys_flutter",
+                        "programmingLanguage": "Dart", "author": person,
+                    }},
+                    {"@type": "ListItem", "position": 5, "item": {
+                        "@type": "SoftwareSourceCode", "name": "claude-remote-terminal",
+                        "description": "Remote-control CLI that lets developers dispatch Claude Code sessions across machines.",
+                        "codeRepository": "https://github.com/ishaquehassan/claude-remote-terminal",
+                        "programmingLanguage": "TypeScript", "author": person,
+                    }},
+                    {"@type": "ListItem", "position": 6, "item": {
+                        "@type": "SoftwareSourceCode", "name": "goal-agent",
+                        "description": "Career and goal tracker agent integrated with Claude for long-running objective tracking.",
+                        "codeRepository": "https://github.com/ishaquehassan/goal-agent",
+                        "programmingLanguage": "TypeScript", "author": person,
+                    }},
+                ],
+            }
+        else:
+            base["mainEntity"] = person
 
     # Course: provider + hasCourseInstance + educationalLevel are Google-required.
     # video unlocks Video carousel rich result; teaches is a Google-recommended Course field.
