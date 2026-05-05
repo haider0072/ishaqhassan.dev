@@ -116,17 +116,23 @@ Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-fl
         "breadcrumb_name": "Open Source",
         "json_ld_type": "CollectionPage",
         "body_html": """
-<p>Ishaq maintains several open-source Flutter packages published on <a href="https://pub.dev/publishers/ishaqhassan.com/packages" rel="noopener">pub.dev under <code>ishaqhassan.dev</code></a>:</p>
+<p>Ishaq Hassan publishes open-source Flutter packages, Dart libraries and developer tooling on <a href="https://pub.dev/publishers/ishaqhassan.com/packages" rel="noopener">pub.dev under the publisher <code>ishaqhassan.dev</code></a> and at <a href="https://github.com/ishaquehassan" rel="noopener">github.com/ishaquehassan</a>. Each package addresses a real problem encountered while shipping production Flutter apps for retail, fintech and pharma clients across multiple geographies.</p>
+
+<h2>Featured Flutter packages</h2>
 <ul>
-  <li><a href="https://github.com/ishaquehassan/document_scanner_flutter" rel="noopener"><strong>document_scanner_flutter</strong></a>: Native iOS/Android document scanning for Flutter.</li>
-  <li><a href="https://github.com/ishaquehassan/flutter_alarm_background_trigger" rel="noopener"><strong>flutter_alarm_background_trigger</strong></a>: Background alarm scheduler for Flutter.</li>
-  <li><a href="https://github.com/ishaquehassan/assets_indexer" rel="noopener"><strong>assets_indexer</strong></a>: Asset path generator inspired by Android's R.java.</li>
-  <li><a href="https://github.com/ishaquehassan/nadra_verisys_flutter" rel="noopener"><strong>nadra_verisys_flutter</strong></a>: Pakistani NADRA Verisys SDK for Flutter.</li>
-  <li><a href="https://github.com/ishaquehassan/claude-remote-terminal" rel="noopener"><strong>claude-remote-terminal</strong></a>: Remote-control CLI for Claude Code sessions.</li>
-  <li><a href="https://github.com/ishaquehassan/goal-agent" rel="noopener"><strong>goal-agent</strong></a>: Career/goal tracker agent.</li>
+  <li><a href="https://github.com/ishaquehassan/document_scanner_flutter" rel="noopener"><strong>document_scanner_flutter</strong></a>: native iOS and Android document scanning bridged to Flutter, with auto-edge detection, perspective correction and PDF export. Used in KYC and onboarding flows.</li>
+  <li><a href="https://github.com/ishaquehassan/flutter_alarm_background_trigger" rel="noopener"><strong>flutter_alarm_background_trigger</strong></a>: a background alarm scheduler that survives Doze mode on Android and respects iOS background-exec windows, useful for medication reminders, wake-up apps and field-data collection.</li>
+  <li><a href="https://github.com/ishaquehassan/assets_indexer" rel="noopener"><strong>assets_indexer</strong></a>: a Dart code generator that produces strongly-typed asset references inspired by Android's R.java, eliminating string-based asset paths and the runtime errors they cause.</li>
+  <li><a href="https://github.com/ishaquehassan/nadra_verisys_flutter" rel="noopener"><strong>nadra_verisys_flutter</strong></a>: an SDK for Pakistan's NADRA Verisys identity verification service, built for fintech onboarding and KYC pipelines.</li>
+  <li><a href="https://github.com/ishaquehassan/claude-remote-terminal" rel="noopener"><strong>claude-remote-terminal</strong></a>: a remote-control CLI that lets developers dispatch Claude Code sessions across machines for distributed AI-assisted coding.</li>
+  <li><a href="https://github.com/ishaquehassan/goal-agent" rel="noopener"><strong>goal-agent</strong></a>: a career and goal tracker agent that integrates with Claude to surface progress against long-running objectives.</li>
 </ul>
-<p>In addition, 6 pull requests are merged into the <a href="/flutter-contributions">Flutter framework itself</a>.
-All repositories are public at <a href="https://github.com/ishaquehassan" rel="noopener">github.com/ishaquehassan</a>.</p>
+
+<h2>Upstream framework contributions</h2>
+<p>Six pull requests merged into the <a href="/flutter-contributions">Flutter framework at flutter/flutter</a>: DropdownMenu scrollPadding, RouteAware lifecycle docs, AnimatedCrossFade clipBehavior, CurvedAnimation disposal guidance, LicenseRegistry NOTICES references and the settings.gradle.kts double-quote template fix. Three additional PRs are currently open and under review on framework documentation, accessibility and developer ergonomics. Each PR ships with extensive test coverage and follows the Flutter style guide and review process.</p>
+
+<h2>Issue triage and review</h2>
+<p>Active participant in the Flutter issue tracker, package author for Dart pub.dev community, and reviewer on multiple downstream projects. Open to package collaboration, plugin co-maintenance, and contributing to other Flutter or Dart open-source projects looking for help with Android or iOS platform channels, accessibility, internationalization, or production hardening. Reach out via the <a href="/contact">contact</a> page.</p>
 """,
     },
     {
@@ -251,17 +257,25 @@ All repositories are public at <a href="https://github.com/ishaquehassan" rel="n
         "breadcrumb_name": "LinkedIn",
         "json_ld_type": "ProfilePage",
         "body_html": """
-<p>Ishaq Hassan on LinkedIn: <a href="https://linkedin.com/in/ishaquehassan" rel="noopener">linkedin.com/in/ishaquehassan</a>.</p>
-<h2>Recent experience</h2>
+<p>Ishaq Hassan on LinkedIn: <a href="https://linkedin.com/in/ishaquehassan" rel="noopener">linkedin.com/in/ishaquehassan</a>. Karachi-based Senior Software Engineer and Flutter Framework Contributor with over thirteen years of full-stack engineering experience across mobile, web, backend and cloud platforms.</p>
+
+<h2>Career timeline</h2>
 <ul>
-  <li><strong>Engineering Manager</strong>: DigitalHire (present)</li>
-  <li><strong>Senior Software Engineer</strong>: Confiz</li>
-  <li><strong>Head of Engineering</strong>: Tech Idara</li>
-  <li><strong>Software Engineer</strong>: Afiniti</li>
-  <li><strong>Independent Flutter Consultant</strong>: Various clients</li>
+  <li><strong>Senior Software Engineer at DigitalHire</strong> (Feb 2023 to Present, McLean VA, remote): leading Flutter mobile development for an AI-driven recruitment platform, owning the cross-platform mobile codebase, the candidate video interview pipeline and a Stripe-backed payments flow. Mentoring engineers and driving release cadence.</li>
+  <li><strong>Senior Software Engineer at Confiz</strong> (2021 to 2023): shipped Flutter and React Native apps for retail and pharma clients, integrated MDM, biometrics, push pipelines and offline-first sync.</li>
+  <li><strong>Head of Engineering at Tech Idara</strong> (2018 to 2021): grew the engineering team from solo to multiple squads, delivered the official 35-video Urdu Flutter course (now listed on the Flutter docs), launched multiple SaaS products end to end.</li>
+  <li><strong>Software Engineer at Afiniti</strong> (2016 to 2018): worked on AI-driven contact-center routing, primarily in C# and Java, with deep dives into queue theory and predictive systems.</li>
+  <li><strong>Independent Flutter Consultant</strong> (parallel since 2018): packages on pub.dev, plugin and architecture reviews, training engagements, fractional CTO contracts.</li>
 </ul>
-<p>Flutter Framework Contributor with <a href="/flutter-contributions">6 merged PRs into the Flutter framework</a>. Speaker at <a href="/speaking">GDG Kolachi, Iqra University, DevnCode</a>.
-Maintainer of open-source Flutter packages on <a href="https://pub.dev/publishers/ishaqhassan.com/packages" rel="noopener">pub.dev</a>.</p>
+
+<h2>Open source and community</h2>
+<p>Flutter Framework contributor with <a href="/flutter-contributions">six merged pull requests in flutter/flutter</a> spanning DropdownMenu padding, RouteAware lifecycle docs, AnimatedCrossFade clip behavior, CurvedAnimation guidance, LicenseRegistry references and the Gradle Kotlin templates. Three additional PRs are currently open on framework documentation and ergonomics. Maintainer of multiple <a href="https://pub.dev/publishers/ishaqhassan.com/packages" rel="noopener">pub.dev publisher packages</a> covering form widgets, validators and tooling utilities.</p>
+
+<h2>Speaking and teaching</h2>
+<p>Public speaker at <a href="/speaking">GDG Kolachi, Iqra University, DevnCode and other community events</a> on Flutter framework internals, state management, plugin architecture and Dart isolates. Created a 35-video Urdu Flutter course on YouTube, the official Urdu reference linked from <a href="https://docs.flutter.dev/resources/courses#urdu" rel="noopener">docs.flutter.dev</a>. Frequent technical writer on Medium, Dev.to and Hashnode covering Flutter, Dart and mobile architecture.</p>
+
+<h2>Skills and stack</h2>
+<p>Mobile: Flutter, Dart, native Android (Kotlin, Java), iOS (Swift). Backend: Node.js, Firebase, Cloudflare Workers, REST and gRPC. Cloud: Google Cloud Platform, AWS, Cloudflare. Tooling: Git, GitHub Actions, Bitrise, Codemagic, Fastlane. Architecture: BLoC, Riverpod, MVVM, clean architecture, micro-frontends, event-driven patterns. Open to senior staff and engineering leadership opportunities globally on remote terms.</p>
 """,
     },
     {
@@ -275,16 +289,25 @@ Maintainer of open-source Flutter packages on <a href="https://pub.dev/publisher
         "breadcrumb_name": "Snake",
         "json_ld_type": "WebApplication",
         "body_html": """
-<p><strong>Snake Neon</strong> is a browser-based arcade game embedded inside the macOS-style portfolio, written from scratch in vanilla JavaScript with a canvas renderer.</p>
+<p><strong>Snake Neon</strong> is a browser-based arcade game embedded inside Ishaq Hassan's macOS-style portfolio, written from scratch in vanilla JavaScript with an HTML5 canvas renderer. The game ships zero external dependencies, weighs under 60KB minified, and runs at a steady 60 frames per second on both desktop and mobile devices.</p>
+
+<h2>Game features</h2>
 <ul>
-  <li>60fps rendering with requestAnimationFrame</li>
-  <li>Neon visuals with glow shaders and a vignette pause overlay</li>
-  <li>Desktop keyboard controls (arrow keys / WASD) plus ESC pause</li>
-  <li>Mobile modes: Wheel / D-Pad / Swipe with 25px dead zone and 3-layer scroll lock</li>
-  <li>Countdown, score, length and time HUD</li>
+  <li>60fps rendering loop driven by requestAnimationFrame with delta-time interpolation, so the game speed stays consistent across high-refresh-rate displays and slower mobile GPUs.</li>
+  <li>Neon visual style with custom glow shaders, a vignette pause overlay, particle trails on the snake head and a parallax starfield in the background.</li>
+  <li>Desktop keyboard controls supporting arrow keys, WASD and ESC for pause, plus a single-key restart after game over.</li>
+  <li>Three mobile control schemes (Wheel, D-Pad and Swipe) with a 25px dead zone, three-layer scroll lock to prevent page scroll during play, and a haptic feedback pulse on direction change.</li>
+  <li>Heads-up display showing live score, snake length, elapsed time and a personal high-score tracker stored in localStorage.</li>
+  <li>Smooth countdown animation when starting and an animated pause overlay with frosted-glass blur on resume.</li>
 </ul>
-<p>Launch Snake from the portfolio dock, from Spotlight (<kbd>Cmd+K</kbd>) or by visiting <a href="/snake">/snake</a> directly.</p>
-<p><a href="/?w=snake">▶ Play now</a></p>
+
+<h2>How to play</h2>
+<p>Launch Snake from the portfolio dock by clicking the Snake icon, from Spotlight via <kbd>Cmd+K</kbd> and typing "snake", or by visiting <a href="/snake">ishaqhassan.dev/snake</a> directly. On mobile, the game opens in a full-screen liquid-morph view with the chosen control scheme available immediately. Use <kbd>Esc</kbd> to pause at any time, or tap the pause icon in the heads-up display.</p>
+
+<h2>Why it exists</h2>
+<p>The portfolio is a macOS desktop simulation built entirely with vanilla HTML, CSS and JavaScript with no framework. Snake Neon is a small showcase of what is possible without React or Vue, using the browser's native canvas API, modern CSS and roughly 1,400 lines of hand-written game code. It demonstrates Ishaq Hassan's approach to mobile-first interaction design, performance budgeting, and zero-dependency delivery.</p>
+
+<p><a href="/?w=snake">Play Snake Neon now</a></p>
 """,
     },
     {

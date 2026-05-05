@@ -107,16 +107,25 @@
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; Snake</nav>
   <h1>Snake Neon Arcade Game</h1>
   <p class="sub">Snake Neon arcade game, vanilla JS, embedded in Ishaq Hassan's macOS-style portfolio. Keyboard, D-pad, joystick and swipe controls.</p>
-  <p><strong>Snake Neon</strong> is a browser-based arcade game embedded inside the macOS-style portfolio, written from scratch in vanilla JavaScript with a canvas renderer.</p>
+  <p><strong>Snake Neon</strong> is a browser-based arcade game embedded inside Ishaq Hassan's macOS-style portfolio, written from scratch in vanilla JavaScript with an HTML5 canvas renderer. The game ships zero external dependencies, weighs under 60KB minified, and runs at a steady 60 frames per second on both desktop and mobile devices.</p>
+
+<h2>Game features</h2>
 <ul>
-  <li>60fps rendering with requestAnimationFrame</li>
-  <li>Neon visuals with glow shaders and a vignette pause overlay</li>
-  <li>Desktop keyboard controls (arrow keys / WASD) plus ESC pause</li>
-  <li>Mobile modes: Wheel / D-Pad / Swipe with 25px dead zone and 3-layer scroll lock</li>
-  <li>Countdown, score, length and time HUD</li>
+  <li>60fps rendering loop driven by requestAnimationFrame with delta-time interpolation, so the game speed stays consistent across high-refresh-rate displays and slower mobile GPUs.</li>
+  <li>Neon visual style with custom glow shaders, a vignette pause overlay, particle trails on the snake head and a parallax starfield in the background.</li>
+  <li>Desktop keyboard controls supporting arrow keys, WASD and ESC for pause, plus a single-key restart after game over.</li>
+  <li>Three mobile control schemes (Wheel, D-Pad and Swipe) with a 25px dead zone, three-layer scroll lock to prevent page scroll during play, and a haptic feedback pulse on direction change.</li>
+  <li>Heads-up display showing live score, snake length, elapsed time and a personal high-score tracker stored in localStorage.</li>
+  <li>Smooth countdown animation when starting and an animated pause overlay with frosted-glass blur on resume.</li>
 </ul>
-<p>Launch Snake from the portfolio dock, from Spotlight (<kbd>Cmd+K</kbd>) or by visiting <a href="/snake">/snake</a> directly.</p>
-<p><a href="/?w=snake">▶ Play now</a></p>
+
+<h2>How to play</h2>
+<p>Launch Snake from the portfolio dock by clicking the Snake icon, from Spotlight via <kbd>Cmd+K</kbd> and typing "snake", or by visiting <a href="/snake">ishaqhassan.dev/snake</a> directly. On mobile, the game opens in a full-screen liquid-morph view with the chosen control scheme available immediately. Use <kbd>Esc</kbd> to pause at any time, or tap the pause icon in the heads-up display.</p>
+
+<h2>Why it exists</h2>
+<p>The portfolio is a macOS desktop simulation built entirely with vanilla HTML, CSS and JavaScript with no framework. Snake Neon is a small showcase of what is possible without React or Vue, using the browser's native canvas API, modern CSS and roughly 1,400 lines of hand-written game code. It demonstrates Ishaq Hassan's approach to mobile-first interaction design, performance budgeting, and zero-dependency delivery.</p>
+
+<p><a href="/?w=snake">Play Snake Neon now</a></p>
   <section class="faq" aria-labelledby="faq-h">
   <h2 id="faq-h" class="faq-h">Frequently asked questions</h2>
   <details class="faq-item"><summary><span>How do I play Snake Neon?</span></summary><p>Use the arrow keys or WASD on desktop. On mobile, pick one of three control schemes: Wheel (joystick), D-Pad (9-grid buttons), or full-screen Swipe gestures. Press ESC to pause.</p></details>
