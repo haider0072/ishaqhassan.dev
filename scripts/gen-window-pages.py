@@ -18,7 +18,10 @@ Outputs to <repo>/<slug>/index.html for each window.
 
 import os
 import json
+from datetime import datetime
 from pathlib import Path
+
+TODAY = datetime.now().strftime("%Y-%m-%d")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://ishaqhassan.dev"
@@ -411,7 +414,7 @@ def build_webpage_jsonld(window):
         "description": window["desc"],
         "isPartOf": {"@type": "WebSite", "@id": f"{SITE}/#website", "url": f"{SITE}/"},
         "inLanguage": "en",
-        "dateModified": "2026-04-25",
+        "dateModified": TODAY,
         "datePublished": "2026-04-24",
         "image": f"{SITE}/assets/og/{window['slug']}.png?v=2",
         "author": build_person_entity(),
