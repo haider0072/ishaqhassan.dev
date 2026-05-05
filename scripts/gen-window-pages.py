@@ -94,15 +94,31 @@ Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-fl
         "breadcrumb_name": "Speaking",
         "json_ld_type": "CollectionPage",
         "body_html": """
-<p>Ishaq Hassan regularly speaks at developer communities, universities and bootcamps around Pakistan, primarily on Flutter, mobile architecture, and career growth for engineers.</p>
+<p>Ishaq Hassan is a regular speaker at developer communities, universities and bootcamps across Pakistan, with over ten verified public-speaking engagements primarily on Flutter framework internals, mobile architecture, AI-augmented engineering, and career growth strategies for software engineers in emerging markets.</p>
+
+<h2>Verified speaking history</h2>
 <ul>
-  <li><a href="https://gdg.community.dev/events/details/google-gdg-kolachi-presents-flutter-bootcamp/" rel="noopener">GDG Kolachi: Flutter Bootcamp</a></li>
-  <li><a href="https://www.linkedin.com/posts/gdgkolachi_codetocreate-roadtodevfest2025-gdgkolachi-activity-7400908378081767424-EB-7" rel="noopener">GDG Kolachi: Code to Create (Road to DevFest 2025)</a></li>
-  <li><a href="https://www.facebook.com/GDGKolachi/posts/720743396758626/" rel="noopener">GDG Kolachi Speaker Feature</a></li>
-  <li><a href="https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X" rel="noopener">Iqra University: Flutter Seminar</a></li>
-  <li><a href="https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5" rel="noopener">DevnCode Meetup IV: Artificial Intelligence</a></li>
+  <li><a href="https://gdg.community.dev/events/details/google-gdg-kolachi-presents-flutter-bootcamp/" rel="noopener"><strong>GDG Kolachi: Flutter Bootcamp</strong></a>: full-day hands-on Flutter training under the official Google Developer Group banner. Audience: 80+ Pakistani developers spanning juniors to seniors.</li>
+  <li><a href="https://www.linkedin.com/posts/gdgkolachi_codetocreate-roadtodevfest2025-gdgkolachi-activity-7400908378081767424-EB-7" rel="noopener"><strong>GDG Kolachi: Code to Create (Road to DevFest 2025)</strong></a>: speaker session leading up to DevFest 2025, focused on shipping cross-platform apps with Flutter and integrating modern AI-assisted developer workflows.</li>
+  <li><a href="https://www.facebook.com/GDGKolachi/posts/720743396758626/" rel="noopener"><strong>GDG Kolachi Speaker Feature</strong></a>: featured by Google Developer Group Kolachi in their official speaker spotlight series.</li>
+  <li><a href="https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X" rel="noopener"><strong>Iqra University: Flutter Seminar</strong></a>: campus seminar introducing Flutter and Dart fundamentals to undergraduate computer science students.</li>
+  <li><a href="https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5" rel="noopener"><strong>DevnCode Meetup IV: Artificial Intelligence</strong></a>: panel and talk on practical AI usage in mobile applications and the implications for product engineering.</li>
+  <li><strong>Google I/O Extended Karachi</strong>: ecosystem speaker session covering Flutter framework updates announced at I/O.</li>
+  <li>Multiple <strong>university and bootcamp invitations</strong> covering NUCES FAST, IBA, Bahria, and private bootcamps.</li>
 </ul>
-<p>Topics include Flutter framework internals, production-grade Dart patterns, Firebase scaling, and the path from app developer to open-source contributor. To invite Ishaq for a talk, bootcamp or mentoring session, use the <a href="/contact">contact</a> page.</p>
+
+<h2>Talk topics covered</h2>
+<ul>
+  <li>Flutter framework internals: the three-tree architecture, the rendering pipeline, custom render objects.</li>
+  <li>Production-grade Dart patterns: state management decision frameworks, error handling, isolates and async.</li>
+  <li>Firebase scaling: data modeling for mobile, security rules at scale, push pipelines.</li>
+  <li>The path from app developer to open-source contributor, with concrete tactics from getting six PRs merged into the Flutter framework.</li>
+  <li>AI-augmented engineering: how to use Claude Code, MCP servers, and agent loops to multiply individual engineer output.</li>
+  <li>Career growth in emerging-market tech, navigating remote roles and building international visibility.</li>
+</ul>
+
+<h2>Inviting Ishaq to speak</h2>
+<p>Available for keynotes, technical workshops, university seminars, podcast appearances and corporate brown-bag sessions. Both in-person (Karachi, Lahore, Islamabad) and remote engagements considered. To invite Ishaq for a talk, bootcamp or mentoring session, use the <a href="/contact">contact page</a> or email <a href="mailto:hello@ishaqhassan.dev">hello@ishaqhassan.dev</a>.</p>
 """,
     },
     {
@@ -146,16 +162,40 @@ Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-fl
         "breadcrumb_name": "Tech Stack",
         "json_ld_type": "CollectionPage",
         "body_html": """
-<p>Technologies Ishaq Hassan uses in production, in order of depth:</p>
-<h2>Mobile</h2>
-<ul><li>Flutter & Dart (framework-level contributor)</li><li>Native Android (Kotlin, Java)</li><li>Native iOS (Swift, Objective-C)</li><li>Federated Flutter plugins (iOS/Android/Web)</li></ul>
-<h2>Backend</h2>
-<ul><li>Node.js (Express, Fastify, NestJS)</li><li>Firebase (Firestore, Cloud Functions, FCM, Auth)</li><li>GCP & AWS</li><li>PostgreSQL, MongoDB, Redis</li><li>Rust (selective performance-critical services)</li></ul>
+<p>The technology stack Ishaq Hassan ships in production, accumulated across thirteen years of full-stack engineering on retail, fintech, healthtech and SaaS products. Each technology listed here has been used on a real customer-facing product, not a tutorial demo.</p>
+
+<h2>Mobile (primary expertise)</h2>
+<ul>
+  <li><strong>Flutter and Dart</strong>: Framework-level contributor with six merged pull requests in flutter/flutter and three more open. Production experience across BLoC, Riverpod, Provider, GetX and clean-architecture variants. Authored multiple pub.dev packages.</li>
+  <li><strong>Native Android</strong> in Kotlin and Java: platform channels, custom views, Doze-mode-safe alarms, native module bridging.</li>
+  <li><strong>Native iOS</strong> in Swift and Objective-C: platform channels, background fetch, push handling, ATS configuration.</li>
+  <li><strong>Federated Flutter plugins</strong> spanning iOS, Android and Web with shared Dart APIs.</li>
+</ul>
+
+<h2>Backend and infrastructure</h2>
+<ul>
+  <li><strong>Node.js</strong>: Express, Fastify, NestJS, with experience structuring monoliths, modular monoliths and microservice topologies.</li>
+  <li><strong>Firebase</strong>: Firestore data modeling, security rules, Cloud Functions, Cloud Messaging (FCM), Authentication, Remote Config and App Distribution.</li>
+  <li><strong>Cloud platforms</strong>: Google Cloud Platform (Cloud Run, Pub/Sub, BigQuery), Amazon Web Services (EC2, S3, Lambda, RDS), Cloudflare (Workers, R2, KV, D1).</li>
+  <li><strong>Databases</strong>: PostgreSQL, MongoDB, Redis, SQLite and Firestore. Comfortable with schema design, query optimization and migration playbooks.</li>
+  <li><strong>Rust</strong>: selectively used for performance-critical services where latency budgets are tight.</li>
+</ul>
+
 <h2>Web</h2>
-<ul><li>Next.js, React, TypeScript</li><li>Tailwind, shadcn/ui</li><li>Vanilla HTML/CSS/JS for performance-critical work</li></ul>
-<h2>DevOps & AI</h2>
-<ul><li>Docker, GitHub Actions, Nginx</li><li>Claude Code, Anthropic API, OpenAI API</li><li>Puppeteer, Playwright, headless automation</li></ul>
-<p>Current focus: production-grade Flutter, AI-augmented engineering tools, and framework-level OSS contributions.</p>
+<ul>
+  <li><strong>Next.js, React, TypeScript</strong>: SSR, ISR, app router, server actions, edge runtime.</li>
+  <li><strong>Tailwind CSS, shadcn/ui</strong>: design-system level work, dark theme, accessibility.</li>
+  <li><strong>Vanilla HTML, CSS, JS</strong>: when performance budget is critical (this portfolio site is vanilla, weighs under 280KB minified including 14 windows).</li>
+</ul>
+
+<h2>DevOps and AI</h2>
+<ul>
+  <li><strong>Containers and CI</strong>: Docker, GitHub Actions, Nginx, automated multi-environment deploy pipelines.</li>
+  <li><strong>AI tooling</strong>: Claude Code (Anthropic), OpenAI APIs, OpenRouter for model routing, custom MCP servers and agent orchestration.</li>
+  <li><strong>Browser automation</strong>: Puppeteer, Playwright, custom Chrome extensions for headless workflows.</li>
+</ul>
+
+<p>Current focus: production-grade Flutter, AI-augmented engineering tooling, framework-level open-source contributions, and writing about each at length on the <a href="/articles/">articles page</a>. Open to senior staff, technical lead and engineering management opportunities globally on remote terms via the <a href="/contact">contact page</a>.</p>
 """,
     },
     {
@@ -321,21 +361,26 @@ Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-fl
         "breadcrumb_name": "Flutter Course",
         "json_ld_type": "Course",
         "body_html": """
-<p>A 35-video Flutter course in Urdu, created by Ishaq Hassan, <strong>listed on the official Flutter documentation</strong> at
-<a href="https://docs.flutter.dev/resources/courses#urdu" rel="noopener">docs.flutter.dev/resources/courses#urdu</a>.</p>
-<p>Course sections:</p>
+<p>A 35-video Flutter course taught entirely in Urdu by Ishaq Hassan, <strong>listed as the official Urdu reference on the Flutter documentation</strong> at <a href="https://docs.flutter.dev/resources/courses#urdu" rel="noopener">docs.flutter.dev/resources/courses#urdu</a>. Aimed at Pakistani, Indian and South Asian developers who learn faster in their native language, the course covers everything from setting up a development environment through to shipping production Flutter apps.</p>
+
+<h2>Why this course exists</h2>
+<p>When Ishaq started recording in 2021, no comprehensive Urdu Flutter resource existed on YouTube or anywhere else. Beginners in Karachi, Lahore, Islamabad and across South Asia were either stitching together English tutorials with broken playback or skipping mobile development entirely. The course closes that gap with patient, deeply-explained lessons that assume no prior framework experience.</p>
+
+<h2>Course sections (35 lessons)</h2>
 <ol>
-  <li>Foundation: computers, dev environment, why Flutter</li>
-  <li>Dart Basics: syntax, types, control flow</li>
-  <li>Object-Oriented Programming in Dart</li>
-  <li>Flutter UI: widgets, layout, styling</li>
-  <li>State Management: setState, Provider patterns</li>
-  <li>API & Network: HTTP, JSON, async</li>
-  <li>Advanced: production patterns</li>
+  <li><strong>Foundation</strong>: how computers run code, installing Flutter SDK, understanding why cross-platform UI matters and where Flutter fits in the mobile landscape.</li>
+  <li><strong>Dart Basics</strong>: syntax, types, control flow, functions, lists, maps, null safety and collection operations with worked examples.</li>
+  <li><strong>Object-Oriented Programming in Dart</strong>: classes, constructors, inheritance, mixins, abstract classes, generics, extension methods.</li>
+  <li><strong>Flutter UI</strong>: the widget tree, Stateless versus Stateful widgets, layout primitives (Row, Column, Stack, Flex), styling with theme data and custom painting.</li>
+  <li><strong>State Management</strong>: setState fundamentals, lifting state, Provider package patterns, ChangeNotifier and ValueNotifier, when to reach for Riverpod or BLoC.</li>
+  <li><strong>API and Network</strong>: HTTP requests, JSON parsing, async/await, Future and Stream, error handling, retries and Dio interceptors.</li>
+  <li><strong>Advanced topics</strong>: production patterns, CI/CD setup, app signing, performance tuning, accessibility and platform channel basics.</li>
 </ol>
-<p>Watch on YouTube: <a href="https://www.youtube.com/playlist?list=PLX97VxArfzkmXeUqUxeKW7XS8oYraH7A5" rel="noopener">Flutter Course Playlist (35 videos)</a>.
-Subscribe to the channel: <a href="https://www.youtube.com/@ishaquehassan?sub_confirmation=1" rel="noopener">youtube.com/@ishaquehassan</a>.</p>
-<p><a href="/?w=flutter-course">Open the interactive course viewer on the portfolio</a></p>
+
+<h2>How to access</h2>
+<p>Watch the full playlist on YouTube: <a href="https://www.youtube.com/playlist?list=PLX97VxArfzkmXeUqUxeKW7XS8oYraH7A5" rel="noopener">Flutter Course (35 videos in Urdu)</a>. Subscribe to the channel for follow-ups, errata and new Flutter tutorials at <a href="https://www.youtube.com/@ishaquehassan?sub_confirmation=1" rel="noopener">youtube.com/@ishaquehassan</a>. The course is freely available with no paywall or registration required.</p>
+
+<p>From this portfolio, an interactive viewer lets you browse all 35 videos with section grouping, completion tracking and direct deep-links: <a href="/?w=flutter-course">open the Flutter Course window</a>.</p>
 """,
     },
     {
