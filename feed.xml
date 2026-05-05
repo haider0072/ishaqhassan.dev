@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Ishaq Hassan: Flutter Framework Engineering</title>
+  <subtitle>Long-form technical writing on Flutter framework internals, state management, plugin development, and open-source contributions.</subtitle>
+  <link href="https://ishaqhassan.dev/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ishaqhassan.dev/" rel="alternate" type="text/html"/>
+  <link href="https://ishaqhassan.dev/blog/" rel="alternate" type="text/html" title="Blog"/>
+  <id>https://ishaqhassan.dev/feed.xml</id>
+  <updated>2026-05-05T19:00:00+05:00</updated>
+  <author>
+    <name>Ishaq Hassan</name>
+    <uri>https://ishaqhassan.dev/</uri>
+    <email>hello@ishaqhassan.dev</email>
+  </author>
+  <icon>https://ishaqhassan.dev/assets/apple-touch-icon.png</icon>
+  <logo>https://ishaqhassan.dev/assets/profile-photo.png</logo>
+  <rights>Copyright (c) 2026 Ishaq Hassan</rights>
+  <generator uri="https://ishaqhassan.dev/" version="1.0">Hand-rolled</generator>
+
+  <entry>
+    <title>One Spell, Every Kingdom: Why Flutter Still Matters in the AI Era</title>
+    <link href="https://ishaqhassan.dev/blog/flutter-still-matters-in-ai-era.html" rel="alternate" type="text/html"/>
+    <link href="https://dev.to/ishaquehassan/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era-b35" rel="related" type="text/html" title="Dev.to mirror"/>
+    <link href="https://ishaquehassan.hashnode.dev/one-spell-every-kingdom-why-flutter-still-matters-in-the-ai-era" rel="related" type="text/html" title="Hashnode mirror"/>
+    <id>https://ishaqhassan.dev/blog/flutter-still-matters-in-ai-era.html</id>
+    <published>2026-05-01T22:30:00+05:00</published>
+    <updated>2026-05-05T19:00:00+05:00</updated>
+    <author>
+      <name>Ishaq Hassan</name>
+      <uri>https://ishaqhassan.dev/</uri>
+    </author>
+    <category term="Flutter"/>
+    <category term="AI"/>
+    <category term="Cross-Platform"/>
+    <summary type="text">AI writes WHAT you ask. You still decide WHAT to ask. Cross-platform was never about less typing, it was about fewer decisions, and that gap is widening as code becomes cheap. Why Flutter matters more, not less, in the AI era.</summary>
+  </entry>
+
+  <entry>
+    <title>Flutter's Three-Tree Architecture Explained: Widgets, Elements, RenderObjects</title>
+    <link href="https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html" rel="alternate" type="text/html"/>
+    <link href="https://medium.com/@ishaqhassan/how-flutters-three-tree-architecture-actually-works-953c8cc17226" rel="related" type="text/html" title="Medium mirror"/>
+    <link href="https://dev.to/ishaquehassan/flutter-three-tree-architecture-explained-widgets-elements-renderobjects-2h28" rel="related" type="text/html" title="Dev.to mirror"/>
+    <id>https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html</id>
+    <published>2026-04-25T08:00:00+05:00</published>
+    <updated>2026-05-05T19:00:00+05:00</updated>
+    <author>
+      <name>Ishaq Hassan</name>
+      <uri>https://ishaqhassan.dev/</uri>
+    </author>
+    <category term="Flutter"/>
+    <category term="Framework Internals"/>
+    <category term="Rendering"/>
+    <summary type="text">Deep dive into Flutter's three parallel trees, the reconciliation algorithm, the six-state Element lifecycle, and why bugs that look like random state loss almost always live in the Element layer.</summary>
+  </entry>
+
+  <entry>
+    <title>Flutter State Management in 2026: A Decision Guide for Production Apps</title>
+    <link href="https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html" rel="alternate" type="text/html"/>
+    <link href="https://dev.to/ishaquehassan/flutter-state-management-in-2026-a-decision-guide-for-production-apps-5d6c" rel="related" type="text/html" title="Dev.to mirror"/>
+    <id>https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html</id>
+    <published>2026-04-25T09:00:00+05:00</published>
+    <updated>2026-05-05T19:00:00+05:00</updated>
+    <author>
+      <name>Ishaq Hassan</name>
+      <uri>https://ishaqhassan.dev/</uri>
+    </author>
+    <category term="Flutter"/>
+    <category term="State Management"/>
+    <category term="Architecture"/>
+    <summary type="text">Honest comparison of setState, InheritedWidget, Provider, Riverpod, Bloc, and signals from running 50+ production Flutter apps. Decision matrix by team size and audit requirements.</summary>
+  </entry>
+
+  <entry>
+    <title>Building Production Flutter Plugins: A 156-Likes pub.dev Case Study</title>
+    <link href="https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html" rel="alternate" type="text/html"/>
+    <link href="https://dev.to/ishaquehassan/building-production-flutter-plugins-a-156-likes-pubdev-case-study-4e3a" rel="related" type="text/html" title="Dev.to mirror"/>
+    <id>https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html</id>
+    <published>2026-04-25T10:00:00+05:00</published>
+    <updated>2026-05-05T19:00:00+05:00</updated>
+    <author>
+      <name>Ishaq Hassan</name>
+      <uri>https://ishaqhassan.dev/</uri>
+    </author>
+    <category term="Flutter"/>
+    <category term="Plugin Development"/>
+    <category term="Open Source"/>
+    <summary type="text">Engineering story behind document_scanner_flutter, a Flutter plugin with 156 pub.dev likes, 130 pub points, and 470 monthly downloads. Native bridges, federated architecture, lifecycle traps.</summary>
+  </entry>
+
+  <entry>
+    <title>How a Pakistani Engineer Got 6 Pull Requests Merged Into Flutter's Official Framework</title>
+    <link href="https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html" rel="alternate" type="text/html"/>
+    <link href="https://medium.com/@ishaqhassan/how-i-got-my-pull-requests-merged-into-flutters-official-repository-98d055f3270e" rel="related" type="text/html" title="Medium mirror"/>
+    <link href="https://dev.to/ishaquehassan/how-a-pakistani-engineer-got-6-pull-requests-merged-into-flutters-official-framework-51po" rel="related" type="text/html" title="Dev.to mirror"/>
+    <id>https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html</id>
+    <published>2026-04-24T05:00:00+05:00</published>
+    <updated>2026-05-05T19:00:00+05:00</updated>
+    <author>
+      <name>Ishaq Hassan</name>
+      <uri>https://ishaqhassan.dev/</uri>
+    </author>
+    <category term="Flutter"/>
+    <category term="Open Source"/>
+    <category term="Pakistan"/>
+    <summary type="text">From writing Flutter apps in Karachi to having 6 PRs merged into the official Flutter repository. A practical, step-by-step guide for first-time framework contributors with the exact PR list and review process tips.</summary>
+  </entry>
+</feed>
