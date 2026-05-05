@@ -35,16 +35,16 @@ WINDOWS = [
         "slug": "about",
         "id": "about",
         "title": "About Ishaq Hassan | Flutter Contributor & Senior Engineer",
-        "desc": "Flutter Framework Contributor with 6 merged PRs. Engineering Manager at DigitalHire, creator of the Urdu Flutter course listed on Flutter docs.",
+        "desc": "Flutter Framework Contributor with 6 merged PRs. Senior Software Engineer at DigitalHire, creator of the Urdu Flutter course listed on Flutter docs.",
         "og_title": "About Ishaq Hassan: Flutter Framework Contributor",
-        "og_desc": "13+ years in software, 6 merged PRs into the Flutter framework, 50+ production apps shipped. Engineering Manager, speaker, educator.",
+        "og_desc": "13+ years in software, 6 merged PRs into the Flutter framework, 50+ production apps shipped. Senior Software Engineer, speaker, educator.",
         "h1": "About Ishaq Hassan",
         "breadcrumb_name": "About",
         "json_ld_type": "ProfilePage",
         "body_html": """
 <p><strong>Ishaq Hassan</strong> is a senior full-stack software engineer based in Pakistan with 13+ years of professional experience.
 He is a <strong>Flutter Framework Contributor</strong> with six pull requests merged into the official Flutter repository and three more approved, making him one of a handful of South Asian engineers contributing at the framework level.</p>
-<p>Professionally he is Engineering Manager at <a href="https://www.digitalhire.com" rel="noopener">DigitalHire</a>, where he leads mobile and platform engineering.
+<p>Professionally he is Senior Software Engineer at <a href="https://www.digitalhire.com" rel="noopener">DigitalHire</a>, where he leads mobile and platform engineering.
 Prior roles span <strong>Confiz, Tech Idara, Afiniti,</strong> and independent consulting. Over the years he has shipped <strong>50+ production apps</strong> on iOS, Android and web.</p>
 <p>Beyond code, Ishaq created a <strong>35-video Urdu-language Flutter course</strong> that is listed on the <a href="https://docs.flutter.dev/resources/courses#urdu" rel="noopener">official Flutter documentation</a>.
 He has spoken at <strong>GDG Kolachi, Iqra University, DevnCode</strong> and multiple community events, and authored <strong>7 Medium articles</strong> covering Dart isolates, Flutter's three-tree architecture, Firebase Cloud Functions, and native plugin development.</p>
@@ -235,12 +235,12 @@ Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-fl
         "breadcrumb_name": "Contact",
         "json_ld_type": "ContactPage",
         "body_html": """
-<p>This is the official contact page for <strong>Ishaq Hassan</strong>: Flutter Framework Contributor, Engineering Manager at DigitalHire, public technology speaker, open-source maintainer and independent Flutter consultant based in Karachi, Pakistan.</p>
+<p>This is the official contact page for <strong>Ishaq Hassan</strong>: Flutter Framework Contributor, Senior Software Engineer at DigitalHire, public technology speaker, open-source maintainer and independent Flutter consultant based in Karachi, Pakistan.</p>
 <h2>What you can reach out about</h2>
 <ul>
   <li><strong>Flutter consulting engagements</strong>: architecture reviews, performance audits, plugin development, framework-level fixes for production blockers</li>
   <li><strong>Speaking invitations</strong>: GDG events, university tech talks, podcast appearances, conference keynotes on Flutter, mobile architecture and open-source strategy</li>
-  <li><strong>Engineering leadership opportunities</strong>: Engineering Manager / Head of Engineering / VP Engineering roles, especially mobile-first or Flutter-heavy stacks</li>
+  <li><strong>Engineering leadership opportunities</strong>: Senior Software Engineer / Tech Lead / Head of Engineering / VP Engineering roles, especially mobile-first or Flutter-heavy stacks</li>
   <li><strong>Open-source collaboration</strong>: pub.dev package contributions, framework PR mentorship, plugin maintenance hand-offs</li>
   <li><strong>Course and training</strong>: licensing the 35-video Urdu Flutter course, custom team training, mentorship programs</li>
   <li><strong>Press and media</strong>: interviews about Flutter framework contributions from Pakistan, the OSS contribution journey, the macOS-style portfolio engineering</li>
@@ -289,10 +289,10 @@ Long-form behind-the-scenes story: <a href="/blog/how-i-got-6-prs-merged-into-fl
     {
         "slug": "linkedin",
         "id": "linkedin",
-        "title": "LinkedIn | Ishaq Hassan: Engineering Manager & Flutter",
-        "desc": "Ishaq Hassan's LinkedIn: 13+ years, Engineering Manager at DigitalHire, Flutter Framework Contributor, former roles at Confiz, Tech Idara, Afiniti.",
+        "title": "LinkedIn | Ishaq Hassan: Senior Software Engineer & Flutter",
+        "desc": "Ishaq Hassan's LinkedIn: 13+ years, Senior Software Engineer at DigitalHire, Flutter Framework Contributor, former roles at Confiz, Tech Idara, Afiniti.",
         "og_title": "LinkedIn: Ishaq Hassan",
-        "og_desc": "Engineering Manager, Flutter Framework Contributor, 13+ years across mobile, web and backend.",
+        "og_desc": "Senior Software Engineer, Flutter Framework Contributor, 13+ years across mobile, web and backend.",
         "h1": "LinkedIn Profile",
         "breadcrumb_name": "LinkedIn",
         "json_ld_type": "ProfilePage",
@@ -450,7 +450,7 @@ def build_person_entity():
         "name": "Ishaq Hassan",
         "url": f"{SITE}/",
         "image": f"{SITE}/assets/profile-photo.png",
-        "jobTitle": "Engineering Manager at DigitalHire, Flutter Framework Contributor",
+        "jobTitle": "Senior Software Engineer at DigitalHire, Flutter Framework Contributor",
         "worksFor": {
             "@type": "Organization",
             "name": "DigitalHire",
@@ -606,8 +606,8 @@ def build_webpage_jsonld(window):
 
 FAQ_MAP = {
     "about": [
-        ("Who is Ishaq Hassan?", "Ishaq Hassan is a senior full-stack software engineer based in Karachi, Pakistan with 13+ years of experience. He is a Flutter Framework Contributor with 6 merged PRs into the official Flutter repository, Engineering Manager at DigitalHire, and the creator of a 35-video Urdu Flutter course listed on the official Flutter documentation."),
-        ("What is Ishaq's current role?", "Engineering Manager at DigitalHire, where he leads mobile and platform engineering."),
+        ("Who is Ishaq Hassan?", "Ishaq Hassan is a senior full-stack software engineer based in Karachi, Pakistan with 13+ years of experience. He is a Flutter Framework Contributor with 6 merged PRs into the official Flutter repository, Senior Software Engineer at DigitalHire, and the creator of a 35-video Urdu Flutter course listed on the official Flutter documentation."),
+        ("What is Ishaq's current role?", "Senior Software Engineer at DigitalHire, where he leads mobile and platform engineering."),
         ("How many years of experience does Ishaq have?", "Over 13 years of professional software engineering experience across mobile, backend, and web."),
     ],
     "flutter": [
@@ -647,7 +647,7 @@ FAQ_MAP = {
         ("Does Ishaq contribute to other OSS projects?", "Yes, including framework-level PRs merged into the Flutter repository itself."),
     ],
     "linkedin": [
-        ("What is Ishaq Hassan's current role on LinkedIn?", "Engineering Manager at DigitalHire, leading AI-based video job board development and managing the mobile and platform teams."),
+        ("What is Ishaq Hassan's current role on LinkedIn?", "Senior Software Engineer at DigitalHire, leading AI-based video job board development and managing the mobile and platform teams."),
         ("Where can I find Ishaq's LinkedIn?", "linkedin.com/in/ishaquehassan."),
         ("What prior roles has Ishaq held?", "Senior Software Engineer at Confiz, Head of Engineering at Tech Idara, Software Engineer at Afiniti, and independent Flutter consulting."),
     ],

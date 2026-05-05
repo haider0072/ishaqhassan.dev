@@ -17,14 +17,14 @@ const ISHAQ_BIO = `# Ishaq Hassan, Complete Knowledge Base
 
 ## Identity
 - Full Name: Ishaq Hassan (also: Ishaque Hassan; handle @ishaquehassan everywhere; X handle: @ishaque_hassan)
-- Roles: Full Stack Developer, Engineering Manager, Open Source Author, Public Tech Speaker, GDG Kolachi Mentor.
+- Roles: Senior Software Engineer, Full Stack Developer, Open Source Author, Public Tech Speaker, GDG Kolachi Mentor.
 - Location: Karachi, Sindh, Pakistan. Available worldwide remote.
 - Experience: 13+ years professional software development (started Feb 2013).
 - Tagline: One of the few Pakistani engineers with PRs merged into the official Flutter framework.
 
 ## Current Role
 DigitalHire (Feb 2023 - Present)
-- Title: Engineering Manager / Technical Lead / Staff Engineer
+- Title: Senior Software Engineer / Technical Lead / Staff Engineer
 - Remote, HQ in McLean, Virginia, USA. Website: digitalhire.com
 - Product: AI-based video job board; world's first integrated talent engine.
 - Stack: Flutter, Dart, Kotlin, Python, PostgreSQL, Next.js, React Native.

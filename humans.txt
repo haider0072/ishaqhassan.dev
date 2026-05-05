@@ -1,6 +1,6 @@
 /* TEAM */
 Author: Ishaq Hassan
-Role: Flutter Framework Contributor, Engineering Manager at DigitalHire, Open Source Author
+Role: Flutter Framework Contributor, Senior Software Engineer at DigitalHire, Open Source Author
 Location: Karachi, Pakistan
 Contact: hello@ishaqhassan.dev
 GitHub: @ishaquehassan
